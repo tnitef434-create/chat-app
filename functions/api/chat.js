@@ -1,7 +1,7 @@
 export async function onRequestPost(context) {
-  const { request, env } = context;
+  const { request } = context;
   
-  const NVIDIA_API_KEY = env.NVIDIA_API_KEY || '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';
+  const NVIDIA_API_KEY = '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';
   const INVOKE_URL = 'https://integrate.api.nvidia.com/v1/chat/completions';
 
   try {
