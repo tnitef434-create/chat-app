@@ -1,15 +1,8 @@
 export async function onRequestPost(context) {
   const { request, env } = context;
   
-  const NVIDIA_API_KEY = env.NVIDIA_API_KEY;
+  const NVIDIA_API_KEY = env.NVIDIA_API_KEY || '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';
   const INVOKE_URL = 'https://integrate.api.nvidia.com/v1/chat/completions';
-  
-  if (!NVIDIA_API_KEY) {
-    return new Response(
-      JSON.stringify({ error: 'NVIDIA_API_KEY not configured in Worker secrets' }),
-      { status: 500, headers: { 'Content-Type': 'application/json' } }
-    );
-  }
 
   try {
     const body = await request.json();
@@ -32,7 +25,6 @@ export async function onRequestPost(context) {
       );
     }
 
-    // Stream the response back to client
     return new Response(response.body, {
       headers: {
         'Content-Type': 'text/event-stream',

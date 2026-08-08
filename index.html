@@ -566,8 +566,7 @@
           { role: 'system', content: 'You are a helpful AI assistant. Format responses with **bold** and *italic* markdown when appropriate.' },
           ...chatHistory.map(m => ({ role: m.role, content: m.content }))
         ],
-        model: 'google/gemma-4-31b-it',
-        chat_template_kwargs: { enable_thinking: true },
+        model: 'z-ai/glm-5.2',
         max_tokens: 16384,
         stream: true,
         temperature: 1,
