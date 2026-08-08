@@ -6,12 +6,13 @@ export async function onRequestPost(context) {
 
   try {
     const body = await request.json();
+    body.stream = false;
     
     const response = await fetch(INVOKE_URL, {
       method: 'POST',
       headers: {
         'Authorization': `Bearer ${NVIDIA_API_KEY}`,
-        'Accept': 'text/event-stream',
+        'Accept': 'application/json',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify(body)
@@ -25,12 +26,9 @@ export async function onRequestPost(context) {
       );
     }
 
-    return new Response(response.body, {
-      headers: {
-        'Content-Type': 'text/event-stream',
-        'Cache-Control': 'no-cache',
-        'Connection': 'keep-alive'
-      }
+    const data = await response.json();
+    return new Response(JSON.stringify(data), {
+      headers: { 'Content-Type': 'application/json' }
     });
   } catch (err) {
     return new Response(

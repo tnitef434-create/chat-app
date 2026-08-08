@@ -568,7 +568,7 @@
         ],
         model: 'z-ai/glm-5.2',
         max_tokens: 16384,
-        stream: true,
+        stream: false,
         temperature: 1,
         top_p: 0.95
       };
@@ -584,50 +584,17 @@
         throw new Error('API Error: ' + response.status + ' ' + err);
       }
 
-      const reader = response.body.getReader();
-      const decoder = new TextDecoder();
-      let fullResponse = '';
-      let aiBubble = null;
+      const data = await response.json();
 
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-
-        const chunk = decoder.decode(value);
-        const lines = chunk.split('\n');
-
-        for (const line of lines) {
-          if (line.startsWith('data: ')) {
-            const data = line.slice(6).trim();
-            if (data === '[DONE]') continue;
-            
-            try {
-              const parsed = JSON.parse(data);
-              const delta = parsed.choices?.[0]?.delta?.content || '';
-              if (delta) {
-                fullResponse += delta;
-                if (!aiBubble) {
-                  removeThinking();
-                  aiBubble = addStreamingMessage('ai', fullResponse);
-                } else {
-                  updateStreamingMessage(aiBubble, fullResponse);
-                }
-              }
-            } catch (e) {
-              // Ignore parse errors for incomplete chunks
-            }
-          }
-        }
+      if (data.error) {
+        throw new Error(data.error);
       }
 
-      if (aiBubble) {
-        aiBubble.innerHTML = renderMarkdown(fullResponse);
-      } else {
-        removeThinking();
-        addMessageToDOM('ai', fullResponse || '(no response)');
-      }
+      removeThinking();
 
-      chatHistory.push({role:'ai', content: fullResponse || '(no response)'});
+      const content = data.choices?.[0]?.message?.content || '(no response)';
+      addMessageToDOM('ai', content);
+      chatHistory.push({role:'ai', content: content});
 
       const convIndex = conversations.findIndex(c => c.id === currentConvId);
       if (convIndex >= 0) {
