@@ -1,0 +1,19 @@
+# <github org/repo>                 <local dir under ./sources>
+# openfootball (Football.TXT / JSON, public domain)
+openfootball/football.json          football.json
+openfootball/champions-league       champions-league
+openfootball/club-worldcup          club-worldcup
+openfootball/england                england
+openfootball/deutschland            deutschland
+openfootball/espana                 espana
+openfootball/italy                  italy
+openfootball/austria                austria
+openfootball/belgium                belgium
+openfootball/europe                 europe
+openfootball/south-america          south-america
+openfootball/world                  world
+openfootball/clubs                  clubs
+# footballcsv (CSV caches, public domain)
+footballcsv/cache.wfb               fc-cache.wfb
+footballcsv/cache.footballdata      fc-cache.footballdata
+footballcsv/cache.api.fbdat         fc-cache.api.fbdat

@@ -1,0 +1,972 @@
+id,competition_id,season,start_year,title,source,matches_count
+1,25,2023/24,2023,Andorra Premier Division 2023/24,europe/andorra/2023-24_ad1.json,135
+2,25,2024/25,2024,Andorra Premier Division 2024/25,europe/andorra/2024-25_ad1.json,135
+3,24,2023/24,2023,Albania Super League 2023/24,europe/albania/2023-24_al1.json,184
+4,24,2024/25,2024,Albania Super League 2024/25,europe/albania/2024-25_al1.json,184
+5,26,2023/24,2023,Armenia Premier League 2023/24,europe/armenia/2023-24_am1.json,180
+6,26,2024/25,2024,Armenia Premier League 2024/25,europe/armenia/2024-25_am1.json,165
+7,78,2013/14,2013,ar.1,fc-cache.footballdata/2013-14/ar.1.csv,383
+8,78,2014,2014,ar.1,fc-cache.footballdata/2014/ar.1.csv,190
+9,78,2015,2015,ar.1,fc-cache.footballdata/2015/ar.1.csv,468
+10,78,2016,2016,ar.1,fc-cache.footballdata/2016/ar.1.csv,242
+11,78,2016/17,2016,ar.1,fc-cache.footballdata/2016-17/ar.1.csv,450
+12,78,2017/18,2017,ar.1,fc-cache.footballdata/2017-18/ar.1.csv,378
+13,78,2018/19,2018,Argentina Primera Division 2018/19,south-america/argentina/2018-19_ar1.json,325
+14,78,2019/20,2019,Argentina Primera Division 2019/20,south-america/argentina/2019-20_ar1.json,276
+15,78,2020,2020,Argentina Primera Division 2020,south-america/argentina/2020_ar1.json,135
+16,78,2021,2021,ar.1,fc-cache.footballdata/2021/ar.1.csv,501
+17,78,2022,2022,ar.1,fc-cache.footballdata/2022/ar.1.csv,581
+18,78,2023,2023,ar.1,fc-cache.footballdata/2023/ar.1.csv,582
+19,78,2024,2024,Argentina Primera Division 2024,south-america/argentina/2024_ar1.json,378
+20,78,2025,2025,Argentina Primera Division 2025,south-america/argentina/2025_ar1.json,240
+21,242,2024,2024,ar.2.metro,fc-cache.wfb/2024/ar.2.metro.csv,462
+22,243,2024,2024,ar.2.nacional,fc-cache.wfb/2024/ar.2.nacional.csv,722
+23,27,2013/14,2013,Österr. Bundesliga 2013/14,austria/2013-14/1-bundesliga.json,180
+24,27,2014/15,2014,Österr. Bundesliga 2014/15,austria/2014-15/1-bundesliga.json,180
+25,27,2015/16,2015,Österr. Bundesliga 2015/16,austria/2015-16/1-bundesliga.json,180
+26,27,2016/17,2016,Österr. Bundesliga 2016/17,austria/2016-17/1-bundesliga.json,180
+27,27,2017/18,2017,Österr. Bundesliga 2017/18,austria/2017-18/1-bundesliga.json,180
+28,27,2018/19,2018,Österr. Bundesliga 2018/19,austria/2018-19/1-bundesliga.json,195
+29,27,2019/20,2019,Österr. Bundesliga 2019/20,austria/2019-20/1-bundesliga.json,195
+30,27,2020/21,2020,Österr. Bundesliga 2020/21,austria/2020-21/1-bundesliga.json,195
+31,27,2021/22,2021,Österr. Bundesliga 2021/22,austria/2021-22/1-bundesliga.json,195
+32,27,2022/23,2022,Österr. Bundesliga 2022/23,austria/2022-23/1-bundesliga.json,195
+33,27,2023/24,2023,Österr. Bundesliga 2023/24,austria/2023-24/1-bundesliga.json,195
+34,27,2024/25,2024,Österr. Bundesliga 2024/25,austria/2024-25/1-bundesliga.json,195
+35,27,2025/26,2025,Austria | Bundesliga 2025/26,austria/2025-26/1-bundesliga.json,195
+36,27,2026/27,2026,Austria | Bundesliga 2026/27,austria/2026-27/1-bundesliga.json,132
+37,244,2013/14,2013,Österr. Erste Liga 2013/14,austria/2013-14/2-liga1.json,180
+38,244,2014/15,2014,Österr. Erste Liga 2014/15,austria/2014-15/2-liga1.json,180
+39,244,2015/16,2015,Österr. Erste Liga 2015/16,austria/2015-16/2-liga1.json,180
+40,244,2016/17,2016,Österr. Erste Liga 2016/17,austria/2016-17/2-liga1.json,180
+41,244,2017/18,2017,Österr. Erste Liga 2017/18,austria/2017-18/2-liga1.json,180
+42,244,2018/19,2018,Österr. 2. Liga 2018/19,austria/2018-19/2-liga2.json,240
+43,244,2019/20,2019,Österr. 2. Liga 2019/20,austria/2019-20/2-liga2.json,240
+44,244,2020/21,2020,Österr. 2. Liga 2020/21,austria/2020-21/2-liga2.json,240
+45,244,2021/22,2021,Österr. 2. Liga 2021/22,austria/2021-22/2-liga2.json,240
+46,244,2022/23,2022,Österr. 2. Liga 2022/23,austria/2022-23/2-liga2.json,240
+47,244,2023/24,2023,Österr. 2. Liga 2023/24,austria/2023-24/2-liga2.json,240
+48,244,2024/25,2024,Österr. 2. Liga 2024/25,austria/2024-25/2-liga2.json,240
+49,244,2025/26,2025,Österr. 2. Liga 2025/26,austria/2025-26/2-liga2.json,240
+50,245,2020/21,2020,Österr. Regionalliga Mitte 2020/21,austria/2020-21/3-regionalliga-mitte.json,240
+51,245,2021/22,2021,Österr. Regionalliga Mitte 2021/22,austria/2021-22/3-regionalliga-mitte.json,272
+52,245,2022/23,2022,Österr. Regionalliga Mitte 2022/23,austria/2022-23/3-regionalliga-mitte.json,240
+53,245,2023/24,2023,Österr. Regionalliga Mitte 2023/24,austria/2023-24/3-regionalliga-mitte.json,240
+54,245,2024/25,2024,Österr. Regionalliga Mitte 2024/25,austria/2024-25/3-regionalliga-mitte.json,240
+55,246,2013/14,2013,Österr. Regionalliga Ost 2013/14,austria/2013-14/3-regionalliga-ost.json,241
+56,246,2014/15,2014,Österr. Regionalliga Ost 2014/15,austria/2014-15/3-regionalliga-ost.json,240
+57,246,2015/16,2015,Österr. Regionalliga Ost 2015/16,austria/2015-16/3-regionalliga-ost.json,240
+58,246,2016/17,2016,Österr. Regionalliga Ost 2016/17,austria/2016-17/3-regionalliga-ost.json,210
+59,246,2018/19,2018,Österr. Regionalliga Ost 2018/19,austria/2018-19/3-regionalliga-ost.json,240
+60,246,2019/20,2019,Österr. Regionalliga Ost 2019/20,austria/2019-20/3-regionalliga-ost.json,240
+61,246,2020/21,2020,Österr. Regionalliga Ost 2020/21,austria/2020-21/3-regionalliga-ost.json,156
+62,246,2021/22,2021,Österr. Regionalliga Ost 2021/22,austria/2021-22/3-regionalliga-ost.json,182
+63,246,2022/23,2022,Österr. Regionalliga Ost 2022/23,austria/2022-23/3-regionalliga-ost.json,240
+64,246,2023/24,2023,Österr. Regionalliga Ost 2023/24,austria/2023-24/3-regionalliga-ost.json,240
+65,246,2024/25,2024,Österr. Regionalliga Ost 2024/25,austria/2024-25/3-regionalliga-ost.json,240
+66,246,2025/26,2025,Österr. Regionalliga Ost 2025/26,austria/2025-26/3-regionalliga-ost.json,272
+67,247,2013/14,2013,ÖFB Cup 2013/14,austria/2013-14/cup.json,63
+68,247,2014/15,2014,ÖFB Cup 2014/15,austria/2014-15/cup.json,63
+69,247,2015/16,2015,ÖFB Cup 2015/16,austria/2015-16/cup.json,63
+70,247,2016/17,2016,ÖFB Cup 2016/17,austria/2016-17/cup.json,63
+71,247,2017/18,2017,at.cup,fc-cache.wfb/2017-18/at.cup.csv,63
+72,247,2018/19,2018,ÖFB Cup 2018/19,austria/2018-19/cup.json,63
+73,247,2019/20,2019,ÖFB Cup 2019/20,austria/2019-20/cup.json,63
+74,247,2020/21,2020,ÖFB Cup 2020/21,austria/2020-21/cup.json,62
+75,247,2021/22,2021,ÖFB Cup 2021/22,austria/2021-22/cup.json,63
+76,247,2022/23,2022,ÖFB Cup 2022/23,austria/2022-23/cup.json,63
+77,247,2023/24,2023,ÖFB Cup 2023/24,austria/2023-24/cup.json,63
+78,247,2024/25,2024,ÖFB Cup 2024/25,austria/2024-25/cup.json,63
+79,247,2025/26,2025,ÖFB Cup 2025/26,austria/2025-26/cup.json,56
+80,130,2018/19,2018,Australia | A-League 2018/19,world/pacific/australia/2018-19_au1.json,140
+81,130,2019/20,2019,Australia | A-League 2019/20,world/pacific/australia/2019-20_au1.json,148
+82,130,2020/21,2020,Australia | A-League 2020/21,world/pacific/australia/2020-21_au1.json,161
+83,130,2021/22,2021,Australia | A-League 2021/22,world/pacific/australia/2021-22_au1.json,163
+84,130,2022/23,2022,Australia | A-League 2022/23,world/pacific/australia/2022-23_au1.json,163
+85,130,2023/24,2023,Australia | A-League 2023/24,world/pacific/australia/2023-24_au1.json,169
+86,130,2024/25,2024,Australia | A-League 2024/25,world/pacific/australia/2024-25_au1.json,176
+87,28,2023/24,2023,Azerbaijan Premier League A 2023/24,europe/azerbaijan/2023-24_az1.json,180
+88,28,2024/25,2024,Azerbaijan Premier League A 2024/25,europe/azerbaijan/2024-25_az1.json,180
+89,31,2023/24,2023,Bosnia and Herzegovina Premier Liga 2023/24,europe/bosnia-herzegovina/2023-24_ba1.json,198
+90,31,2024/25,2024,Bosnia and Herzegovina Premier Liga 2024/25,europe/bosnia-herzegovina/2024-25_ba1.json,198
+91,248,2024/25,2024,Bosnia and Herzegovina Cup 2024/25,europe/bosnia-herzegovina/2024-25_bacup.json,38
+92,30,2013/14,2013,be.1,fc-cache.footballdata/2013-14/be.1.csv,240
+93,30,2014/15,2014,be.1,fc-cache.footballdata/2014-15/be.1.csv,240
+94,30,2015/16,2015,be.1,fc-cache.footballdata/2015-16/be.1.csv,240
+95,30,2016/17,2016,be.1,fc-cache.footballdata/2016-17/be.1.csv,240
+96,30,2017/18,2017,be.1,fc-cache.footballdata/2017-18/be.1.csv,240
+97,30,2018/19,2018,be.1,fc-cache.wfb/2018-19/be.1.csv,332
+98,30,2019/20,2019,Belgium First Division A 2019/20,belgium/2019-20/be1.json,240
+99,30,2020/21,2020,be.1,fc-cache.wfb/2020-21/be.1.csv,306
+100,30,2021/22,2021,Belgium First Division A 2020/21,belgium/2021-22/be1.json,330
+101,30,2022/23,2022,be.1,fc-cache.footballdata/2022-23/be.1.csv,306
+102,30,2023/24,2023,Belgium First Division A 2023/24,belgium/2023-24/be1.json,313
+103,30,2024/25,2024,Belgium First Division A 2024/25,belgium/2024-25/be1.json,313
+104,30,2025/26,2025,Belgium First Division A 2025/26,belgium/2025-26/be1.json,240
+105,249,2024/25,2024,be.2,fc-cache.wfb/2024-25/be.2.csv,240
+106,250,2024/25,2024,Belgium Beker van België 2024/25,belgium/2024-25/becup.json,49
+107,32,2023/24,2023,Bulgaria Premier League 2023/24,europe/bulgaria/2023-24_bg1.json,283
+108,32,2024/25,2024,Bulgaria Premier League 2024/25,europe/bulgaria/2024-25_bg1.json,293
+109,251,2024/25,2024,Bulgaria Cup 2024/25,europe/bulgaria/2024-25_bgcup.json,33
+110,79,2024,2024,bo.1,fc-cache.wfb/2024/bo.1.csv,254
+111,80,2013,2013,br.1,fc-cache.wfb/2013/br.1.csv,380
+112,80,2014,2014,br.1,fc-cache.wfb/2014/br.1.csv,380
+113,80,2015,2015,br.1,fc-cache.wfb/2015/br.1.csv,380
+114,80,2016,2016,br.1,fc-cache.wfb/2016/br.1.csv,380
+115,80,2017,2017,br.1,fc-cache.wfb/2017/br.1.csv,380
+116,80,2018,2018,Brasileiro Série A 2018,south-america/brazil/2018_br1.json,380
+117,80,2019,2019,Brasileiro Série A 2019,south-america/brazil/2019_br1.json,380
+118,80,2020,2020,Brasileiro Série A 2020,south-america/brazil/2020_br1.json,380
+119,80,2021,2021,Brasileiro Série A 2021,south-america/brazil/2021_br1.json,380
+120,80,2022,2022,Brasileiro Série A 2022,south-america/brazil/2022_br1.json,380
+121,80,2023,2023,Brasileiro Série A 2023,south-america/brazil/2023_br1.json,380
+122,80,2024,2024,Brasileiro Série A 2024,south-america/brazil/2024_br1.json,380
+123,80,2025,2025,Brasileiro Série A 2025,south-america/brazil/2025_br1.json,380
+124,80,2026,2026,Brasileiro Série A 2026,south-america/brazil/2026_br1.json,380
+125,252,2013,2013,br.2,fc-cache.wfb/2013/br.2.csv,380
+126,252,2014,2014,br.2,fc-cache.wfb/2014/br.2.csv,380
+127,252,2015,2015,br.2,fc-cache.wfb/2015/br.2.csv,380
+128,252,2016,2016,br.2,fc-cache.wfb/2016/br.2.csv,380
+129,252,2017,2017,br.2,fc-cache.wfb/2017/br.2.csv,380
+130,252,2018,2018,Brasileiro Série B 2018,south-america/brazil/2018_br2.json,380
+131,252,2019,2019,Brasileiro Série B 2019,south-america/brazil/2019_br2.json,380
+132,252,2020,2020,Brasileiro Série B 2020,south-america/brazil/2020_br2.json,380
+133,252,2021,2021,Brasileiro Série B 2021,south-america/brazil/2021_br2.json,380
+134,252,2022,2022,Brasileiro Série B 2022,south-america/brazil/2022_br2.json,380
+135,252,2023,2023,Brasileiro Série B 2023,south-america/brazil/2023_br2.json,380
+136,252,2024,2024,Brasileiro Série B 2024,south-america/brazil/2024_br2.json,380
+137,252,2025,2025,Brasileiro Série B 2025,south-america/brazil/2025_br2.json,380
+138,253,2020,2020,br.3,fc-cache.wfb/2020/br.3.csv,206
+139,253,2021,2021,br.3,fc-cache.wfb/2021/br.3.csv,206
+140,253,2022,2022,br.3,fc-cache.wfb/2022/br.3.csv,216
+141,253,2023,2023,br.3,fc-cache.wfb/2023/br.3.csv,216
+142,253,2024,2024,br.3,fc-cache.wfb/2024/br.3.csv,214
+143,254,2020,2020,br.4,fc-cache.wfb/2020/br.4.csv,518
+144,254,2021,2021,br.4,fc-cache.wfb/2021/br.4.csv,518
+145,254,2022,2022,br.4,fc-cache.wfb/2022/br.4.csv,510
+146,254,2023,2023,br.4,fc-cache.wfb/2023/br.4.csv,510
+147,254,2024,2024,br.4,fc-cache.wfb/2024/br.4.csv,508
+148,255,2018,2018,br.carioca,fc-cache.wfb/2018/br.carioca.csv,76
+149,255,2019,2019,br.carioca,fc-cache.wfb/2019/br.carioca.csv,76
+150,255,2020,2020,br.carioca,fc-cache.wfb/2020/br.carioca.csv,74
+151,255,2021,2021,br.carioca,fc-cache.wfb/2021/br.carioca.csv,108
+152,255,2022,2022,br.carioca,fc-cache.wfb/2022/br.carioca.csv,78
+153,255,2023,2023,br.carioca,fc-cache.wfb/2023/br.carioca.csv,78
+154,255,2024,2024,br.carioca,fc-cache.wfb/2024/br.carioca.csv,78
+155,256,2016,2016,br.cup,fc-cache.wfb/2016/br.cup.csv,170
+156,256,2017,2017,br.cup,fc-cache.wfb/2017/br.cup.csv,120
+157,256,2018,2018,br.cup,fc-cache.wfb/2018/br.cup.csv,120
+158,256,2019,2019,br.cup,fc-cache.wfb/2019/br.cup.csv,120
+159,256,2020,2020,br.cup,fc-cache.wfb/2020/br.cup.csv,120
+160,256,2021,2021,br.cup,fc-cache.wfb/2021/br.cup.csv,122
+161,256,2022,2022,br.cup,fc-cache.wfb/2022/br.cup.csv,122
+162,256,2023,2023,br.cup,fc-cache.wfb/2023/br.cup.csv,122
+163,256,2024,2024,br.cup,fc-cache.wfb/2024/br.cup.csv,120
+164,256,2025,2025,Copa do Brasil 2025,south-america/brazil/2025_brcup.json,92
+165,257,2019,2019,br.gauchao,fc-cache.wfb/2019/br.gauchao.csv,80
+166,257,2020,2020,br.gauchao,fc-cache.wfb/2020/br.gauchao.csv,74
+167,257,2021,2021,br.gauchao,fc-cache.wfb/2021/br.gauchao.csv,72
+168,257,2022,2022,br.gauchao,fc-cache.wfb/2022/br.gauchao.csv,72
+169,257,2023,2023,br.gauchao,fc-cache.wfb/2023/br.gauchao.csv,72
+170,257,2024,2024,br.gauchao,fc-cache.wfb/2024/br.gauchao.csv,76
+171,258,2019,2019,br.mineiro,fc-cache.wfb/2019/br.mineiro.csv,76
+172,258,2020,2020,br.mineiro,fc-cache.wfb/2020/br.mineiro.csv,75
+173,258,2021,2021,br.mineiro,fc-cache.wfb/2021/br.mineiro.csv,75
+174,258,2022,2022,br.mineiro,fc-cache.wfb/2022/br.mineiro.csv,78
+175,258,2023,2023,br.mineiro,fc-cache.wfb/2023/br.mineiro.csv,66
+176,258,2024,2024,br.mineiro,fc-cache.wfb/2024/br.mineiro.csv,66
+177,259,2021,2021,br.paranaense,fc-cache.wfb/2021/br.paranaense.csv,80
+178,259,2022,2022,br.paranaense,fc-cache.wfb/2022/br.paranaense.csv,80
+179,259,2023,2023,br.paranaense,fc-cache.wfb/2023/br.paranaense.csv,80
+180,259,2024,2024,br.paranaense,fc-cache.wfb/2024/br.paranaense.csv,80
+181,260,2018,2018,br.paulistao,fc-cache.wfb/2018/br.paulistao.csv,110
+182,260,2019,2019,br.paulistao,fc-cache.wfb/2019/br.paulistao.csv,110
+183,260,2020,2020,br.paulistao,fc-cache.wfb/2020/br.paulistao.csv,104
+184,260,2021,2021,br.paulistao,fc-cache.wfb/2021/br.paulistao.csv,109
+185,260,2022,2022,br.paulistao,fc-cache.wfb/2022/br.paulistao.csv,109
+186,260,2023,2023,br.paulistao,fc-cache.wfb/2023/br.paulistao.csv,109
+187,260,2024,2024,br.paulistao,fc-cache.wfb/2024/br.paulistao.csv,104
+188,29,2023,2023,Belarus Premier League 2023,europe/belarus/2023_by1.json,210
+189,29,2024,2024,Belarus Premier League 2024,europe/belarus/2024_by1.json,240
+190,29,2025,2025,Belarus Premier League 2025,europe/belarus/2025_by1.json,240
+191,96,2024,2024,ca.1,fc-cache.wfb/2024/ca.1.csv,111
+192,20,2023,2023,African Football League 2023,world/africa/african-football-league/2023_afl.json,14
+193,17,2023/24,2023,CAF Champions League 2023/24,world/africa/champions-league/2023-24_cafcl.json,138
+194,17,2024/25,2024,CAF Champions League 2024/25,world/africa/champions-league/2024-25_cafcl.json,148
+195,74,2013/14,2013,ch.1,fc-cache.footballdata/2013-14/ch.1.csv,180
+196,74,2014/15,2014,Swiss Super League 2014/15,europe/switzerland/2014-15_ch1.json,180
+197,74,2015/16,2015,ch.1,fc-cache.footballdata/2015-16/ch.1.csv,180
+198,74,2016/17,2016,ch.1,fc-cache.footballdata/2016-17/ch.1.csv,180
+199,74,2017/18,2017,ch.1,fc-cache.footballdata/2017-18/ch.1.csv,180
+200,74,2018/19,2018,Swiss Super League 2018/19,europe/switzerland/2018-19_ch1.json,180
+201,74,2019/20,2019,Swiss Super League 2019/20,europe/switzerland/2019-20_ch1.json,180
+202,74,2020/21,2020,Swiss Super League 2020/21,europe/switzerland/2020-21_ch1.json,180
+203,74,2021/22,2021,ch.1,fc-cache.footballdata/2021-22/ch.1.csv,181
+204,74,2022/23,2022,ch.1,fc-cache.footballdata/2022-23/ch.1.csv,182
+205,74,2023/24,2023,Swiss Super League 2023/24,europe/switzerland/2023-24_ch1.json,228
+206,74,2024/25,2024,Swiss Super League 2024/25,europe/switzerland/2024-25_ch1.json,228
+207,74,2026/27,2026,Switzerland | Super League 2026/27,europe/switzerland/2026-27_ch1.json,132
+208,261,2019/20,2019,Swiss Challenge League 2019/20,europe/switzerland/2019-20_ch2.json,180
+209,261,2020/21,2020,Swiss Challenge League 2020/21,europe/switzerland/2020-21_ch2.json,180
+210,261,2023/24,2023,Swiss Challenge League 2023/24,europe/switzerland/2023-24_ch2.json,180
+211,261,2024/25,2024,Swiss Challenge League 2024/25,europe/switzerland/2024-25_ch2.json,180
+212,262,2023/24,2023,Swiss Cup 2023/24,europe/switzerland/2023-24_chcup.json,63
+213,262,2024/25,2024,Swiss Cup 2024/25,europe/switzerland/2024-25_chcup.json,63
+214,81,2024,2024,cl.1,fc-cache.wfb/2024/cl.1.csv,240
+215,136,2014,2014,cn.1,fc-cache.footballdata/2014/cn.1.csv,240
+216,136,2015,2015,cn.1,fc-cache.footballdata/2015/cn.1.csv,240
+217,136,2016,2016,cn.1,fc-cache.footballdata/2016/cn.1.csv,240
+218,136,2017,2017,cn.1,fc-cache.footballdata/2017/cn.1.csv,240
+219,136,2018,2018,China | Super League 2018,world/asia/china/2018_cn1.json,240
+220,136,2019,2019,China | Super League 2019,world/asia/china/2019_cn1.json,240
+221,136,2020,2020,China | Super League 2020,world/asia/china/2020_cn1.json,160
+222,136,2021,2021,China | Super League 2021,world/asia/china/2021_cn1.json,176
+223,136,2022,2022,China | Super League 2022,world/asia/china/2022_cn1.json,306
+224,136,2023,2023,China | Super League 2023,world/asia/china/2023_cn1.json,240
+225,136,2024,2024,China | Super League 2024,world/asia/china/2024_cn1.json,240
+226,136,2025,2025,China | Super League 2025,world/asia/china/2025_cn1.json,240
+227,82,2023,2023,Colombia Primera A 2023,south-america/colombia/2023_co1.json,452
+228,82,2024,2024,Colombia Primera A 2024,south-america/colombia/2024_co1.json,432
+229,82,2025,2025,Colombia Primera A 2025,south-america/colombia/2025_co1.json,200
+230,263,2024,2024,co.2,fc-cache.wfb/2024/co.2.csv,282
+231,264,2024,2024,co.cup,fc-cache.wfb/2024/co.cup.csv,56
+232,8,2013/14,2013,CONCACAF Champions League 2013/14,world/north-america/champions-league/2013-14_concacafcl.json,62
+233,8,2014/15,2014,CONCACAF Champions League 2014/15,world/north-america/champions-league/2014-15_concacafcl.json,62
+234,8,2015/16,2015,CONCACAF Champions League 2015/16,world/north-america/champions-league/2015-16_concacafcl.json,62
+235,8,2016/17,2016,CONCACAF Champions League 2016/17,world/north-america/champions-league/2016-17_concacafcl.json,62
+236,8,2018,2018,CONCACAF Champions League 2018,world/north-america/champions-league/2018_concacafcl.json,30
+237,8,2019,2019,CONCACAF Champions League 2019,world/north-america/champions-league/2019_concacafcl.json,30
+238,8,2020,2020,CONCACAF Champions League 2020,world/north-america/champions-league/2020_concacafcl.json,27
+239,8,2021,2021,CONCACAF Champions League 2021,world/north-america/champions-league/2021_concacafcl.json,29
+240,8,2022,2022,CONCACAF Champions League 2022,world/north-america/champions-league/2022_concacafcl.json,30
+241,8,2023,2023,CONCACAF Champions League 2023,world/north-america/champions-league/2023_concacafcl.json,30
+242,8,2024,2024,CONCACAF Champions League 2024,world/north-america/champions-league/2024_concacafcl.json,51
+243,8,2025,2025,CONCACAF Champions League 2025,world/north-america/champions-league/2025_concacafcl.json,51
+244,5,2013,2013,Copa Libertadores 2013,south-america/copa-libertadores/2013_copal.json,138
+245,5,2014,2014,Copa Libertadores 2014,south-america/copa-libertadores/2014_copal.json,138
+246,5,2015,2015,Copa Libertadores 2015,south-america/copa-libertadores/2015_copal.json,138
+247,5,2016,2016,Copa Libertadores 2016,south-america/copa-libertadores/2016_copal.json,138
+248,5,2017,2017,Copa Libertadores 2017,south-america/copa-libertadores/2017_copal.json,156
+249,5,2018,2018,Copa Libertadores 2018,south-america/copa-libertadores/2018_copal.json,156
+250,5,2019,2019,Copa Libertadores 2019,south-america/copa-libertadores/2019_copal.json,155
+251,5,2020,2020,Copa Libertadores 2020,south-america/copa-libertadores/2020_copal.json,155
+252,5,2021,2021,Copa Libertadores 2021,south-america/copa-libertadores/2021_copal.json,155
+253,5,2022,2022,Copa Libertadores 2022,south-america/copa-libertadores/2022_copal.json,155
+254,5,2023,2023,Copa Libertadores 2023,south-america/copa-libertadores/2023_copal.json,155
+255,5,2024,2024,Copa Libertadores 2024,south-america/copa-libertadores/2024_copal.json,155
+256,5,2025,2025,Copa Libertadores 2025,south-america/copa-libertadores/2025_copal.json,155
+257,5,2026,2026,Copa Libertadores 2026,south-america/copa-libertadores/2026_copal.json,147
+258,6,2013,2013,Copa Sudamericana 2013,south-america/copa-libertadores/2013_copas.json,92
+259,6,2014,2014,Copa Sudamericana 2014,south-america/copa-libertadores/2014_copas.json,92
+260,6,2015,2015,Copa Sudamericana 2015,south-america/copa-libertadores/2015_copas.json,92
+261,6,2016,2016,Copa Sudamericana 2016,south-america/copa-libertadores/2016_copas.json,92
+262,6,2017,2017,Copa Sudamericana 2017,south-america/copa-libertadores/2017_copas.json,106
+263,6,2018,2018,Copa Sudamericana 2018,south-america/copa-libertadores/2018_copas.json,106
+264,6,2019,2019,Copa Sudamericana 2019,south-america/copa-libertadores/2019_copas.json,105
+265,6,2020,2020,Copa Sudamericana 2020,south-america/copa-libertadores/2020_copas.json,105
+266,6,2021,2021,Copa Sudamericana 2021,south-america/copa-libertadores/2021_copas.json,157
+267,6,2022,2022,Copa Sudamericana 2022,south-america/copa-libertadores/2022_copas.json,157
+268,6,2023,2023,Copa Sudamericana 2023,south-america/copa-libertadores/2023_copas.json,157
+269,6,2024,2024,Copa Sudamericana 2024,south-america/copa-libertadores/2024_copas.json,157
+270,6,2025,2025,Copa Sudamericana 2025,south-america/copa-libertadores/2025_copas.json,121
+271,98,2024/25,2024,Costa Rica Primera División 2024/25,world/central-america/costa-rica/2024-25_cr1.json,272
+272,34,2023/24,2023,Cyprus First Division 2023/24,europe/cyprus/2023-24_cy1.json,268
+273,34,2024/25,2024,Cyprus First Division 2024/25,europe/cyprus/2024-25_cy1.json,240
+274,265,2024/25,2024,Cyprus Cypriot Cup 2024/25,europe/cyprus/2024-25_cycup.json,27
+275,35,2018/19,2018,Czech Republic First League 2018/19,europe/czech-republic/2018-19_cz1.json,277
+276,35,2020/21,2020,Czech Republic First League 2020/21,europe/czech-republic/2020-21_cz1.json,306
+277,35,2023/24,2023,Czech Republic First League 2023/24,europe/czech-republic/2023-24_cz1.json,277
+278,35,2024/25,2024,Czech Republic First League 2024/25,europe/czech-republic/2024-25_cz1.json,276
+279,35,2026/27,2026,Czech Republic | First League 2026/27,europe/czech-republic/2026-27_cz1.json,240
+280,266,2024/25,2024,Czech Republic National League 2024/25,europe/czech-republic/2024-25_cz2.json,240
+281,267,2024/25,2024,cz.3,fc-cache.wfb/2024-25/cz.3.csv,425
+282,268,2024/25,2024,Czech Republic Cup 2024/25,europe/czech-republic/2024-25_czcup.json,101
+283,43,2013/14,2013,Deutsche Bundesliga 2013/14,deutschland/2013-14/1-bundesliga.json,306
+284,43,2014/15,2014,Deutsche Bundesliga 2014/15,deutschland/2014-15/1-bundesliga.json,306
+285,43,2015/16,2015,Deutsche Bundesliga 2015/16,deutschland/2015-16/1-bundesliga.json,306
+286,43,2016/17,2016,Deutsche Bundesliga 2016/17,deutschland/2016-17/1-bundesliga.json,306
+287,43,2017/18,2017,Deutsche Bundesliga 2017/18,deutschland/2017-18/1-bundesliga.json,306
+288,43,2018/19,2018,Deutsche Bundesliga 2018/19,deutschland/2018-19/1-bundesliga.json,306
+289,43,2019/20,2019,Deutsche Bundesliga 2019/20,deutschland/2019-20/1-bundesliga.json,306
+290,43,2020/21,2020,Deutsche Bundesliga 2020/21,deutschland/2020-21/1-bundesliga.json,306
+291,43,2021/22,2021,Deutsche Bundesliga 2021/22,deutschland/2021-22/1-bundesliga.json,306
+292,43,2022/23,2022,Deutsche Bundesliga 2022/23,deutschland/2022-23/1-bundesliga.json,306
+293,43,2023/24,2023,Deutsche Bundesliga 2023/24,deutschland/2023-24/1-bundesliga.json,306
+294,43,2024/25,2024,Deutsche Bundesliga 2024/25,deutschland/2024-25/1-bundesliga.json,306
+295,43,2025/26,2025,Germany | Bundesliga 2025/26,deutschland/2025-26/1-bundesliga.json,306
+296,43,2026/27,2026,Deutsche Bundesliga 2026/27,deutschland/2026-27/1-bundesliga.json,306
+297,269,2013/14,2013,Deutsche 2. Bundesliga 2013/14,deutschland/2013-14/2-bundesliga2.json,306
+298,269,2014/15,2014,Deutsche 2. Bundesliga 2014/15,deutschland/2014-15/2-bundesliga2.json,306
+299,269,2015/16,2015,Deutsche 2. Bundesliga 2015/16,deutschland/2015-16/2-bundesliga2.json,306
+300,269,2016/17,2016,Deutsche 2. Bundesliga 2016/17,deutschland/2016-17/2-bundesliga2.json,306
+301,269,2017/18,2017,Deutsche 2. Bundesliga 2017/18,deutschland/2017-18/2-bundesliga2.json,306
+302,269,2018/19,2018,Deutsche 2. Bundesliga 2018/19,deutschland/2018-19/2-bundesliga2.json,306
+303,269,2019/20,2019,Deutsche 2. Bundesliga 2019/20,deutschland/2019-20/2-bundesliga2.json,306
+304,269,2020/21,2020,Deutsche 2. Bundesliga 2020/21,deutschland/2020-21/2-bundesliga2.json,306
+305,269,2021/22,2021,Deutsche 2. Bundesliga 2021/22,deutschland/2021-22/2-bundesliga2.json,306
+306,269,2022/23,2022,Deutsche 2. Bundesliga 2022/23,deutschland/2022-23/2-bundesliga2.json,306
+307,269,2023/24,2023,Deutsche 2. Bundesliga 2023/24,deutschland/2023-24/2-bundesliga2.json,306
+308,269,2024/25,2024,Deutsche 2. Bundesliga 2024/25,deutschland/2024-25/2-bundesliga2.json,306
+309,269,2025/26,2025,Deutsche 2. Bundesliga 2025/26,deutschland/2025-26/2-bundesliga2.json,306
+310,270,2014/15,2014,Deutsche 3. Liga 2014/15,deutschland/2014-15/3-liga3.json,380
+311,270,2015/16,2015,Deutsche 3. Liga 2015/16,deutschland/2015-16/3-liga3.json,380
+312,270,2016/17,2016,Deutsche 3. Liga 2016/17,deutschland/2016-17/3-liga3.json,380
+313,270,2017/18,2017,Deutsche 3. Liga 2017/18,deutschland/2017-18/3-liga3.json,380
+314,270,2018/19,2018,Deutsche 3. Liga 2018/19,deutschland/2018-19/3-liga3.json,380
+315,270,2019/20,2019,Deutsche 3. Liga 2019/20,deutschland/2019-20/3-liga3.json,380
+316,270,2020/21,2020,Deutsche 3. Liga 2020/21,deutschland/2020-21/3-liga3.json,380
+317,270,2021/22,2021,Deutsche 3. Liga 2021/22,deutschland/2021-22/3-liga3.json,380
+318,270,2022/23,2022,Deutsche 3. Liga 2022/23,deutschland/2022-23/3-liga3.json,380
+319,270,2023/24,2023,Deutsche 3. Liga 2023/24,deutschland/2023-24/3-liga3.json,380
+320,270,2024/25,2024,Deutsche 3. Liga 2024/25,deutschland/2024-25/3-liga3.json,380
+321,270,2025/26,2025,Deutsche 3. Liga 2025/26,deutschland/2025-26/3-liga3.json,380
+322,271,2024/25,2024,Deutsche Regionalliga Bayern 2024/25,deutschland/2024-25/4-regionalliga-bayern.json,306
+323,272,2024/25,2024,Deutsche Regionalliga Nord 2024/25,deutschland/2024-25/4-regionalliga-nord.json,306
+324,273,2024/25,2024,Deutsche Regionalliga Nordost 2024/25,deutschland/2024-25/4-regionalliga-nordost.json,306
+325,274,2024/25,2024,Deutsche Regionalliga Südwest 2024/25,deutschland/2024-25/4-regionalliga-suedwest.json,306
+326,275,2024/25,2024,Deutsche Regionalliga West 2024/25,deutschland/2024-25/4-regionalliga-west.json,306
+327,276,2013/14,2013,de.cup,fc-cache.wfb/2013-14/de.cup.csv,63
+328,276,2014/15,2014,de.cup,fc-cache.wfb/2014-15/de.cup.csv,63
+329,276,2015/16,2015,de.cup,fc-cache.wfb/2015-16/de.cup.csv,63
+330,276,2016/17,2016,de.cup,fc-cache.wfb/2016-17/de.cup.csv,63
+331,276,2017/18,2017,de.cup,fc-cache.wfb/2017-18/de.cup.csv,63
+332,276,2018/19,2018,DFB Pokal 2018/19,deutschland/2018-19/cup.json,63
+333,276,2019/20,2019,DFB Pokal 2019/20,deutschland/2019-20/cup.json,63
+334,276,2020/21,2020,DFB Pokal 2020/21,deutschland/2020-21/cup.json,63
+335,276,2021/22,2021,DFB Pokal 2021/22,deutschland/2021-22/cup.json,63
+336,276,2022/23,2022,DFB Pokal 2022/23,deutschland/2022-23/cup.json,63
+337,276,2023/24,2023,DFB Pokal 2023/24,deutschland/2023-24/cup.json,63
+338,276,2024/25,2024,DFB Pokal 2024/25,deutschland/2024-25/cup.json,63
+339,276,2025/26,2025,DFB Pokal 2025/26,deutschland/2025-26/cup.json,59
+340,36,2013/14,2013,dk.1,fc-cache.footballdata/2013-14/dk.1.csv,198
+341,36,2014/15,2014,dk.1,fc-cache.footballdata/2014-15/dk.1.csv,198
+342,36,2015/16,2015,dk.1,fc-cache.footballdata/2015-16/dk.1.csv,198
+343,36,2016/17,2016,dk.1,fc-cache.footballdata/2016-17/dk.1.csv,255
+344,36,2017/18,2017,dk.1,fc-cache.footballdata/2017-18/dk.1.csv,255
+345,36,2018/19,2018,dk.1,fc-cache.footballdata/2018-19/dk.1.csv,251
+346,36,2019/20,2019,dk.1,fc-cache.footballdata/2019-20/dk.1.csv,243
+347,36,2020/21,2020,dk.1,fc-cache.footballdata/2020-21/dk.1.csv,193
+348,36,2021/22,2021,dk.1,fc-cache.footballdata/2021-22/dk.1.csv,193
+349,36,2022/23,2022,dk.1,fc-cache.footballdata/2022-23/dk.1.csv,193
+350,36,2023/24,2023,Denmark Superligaen 2023/24,europe/denmark/2023-24_dk1.json,193
+351,36,2024/25,2024,Denmark Superligaen 2024/25,europe/denmark/2024-25_dk1.json,193
+352,277,2024/25,2024,Denmark 1. Division 2024/25,europe/denmark/2024-25_dk2.json,192
+353,278,2024/25,2024,Denmark Landspokalturneringen 2024/25,europe/denmark/2024-25_dkcup.json,108
+354,176,2023/24,2023,Algeria | Ligue 1 2023/24,world/africa/algeria/2023-24_dz1.json,240
+355,176,2024/25,2024,Algeria | Ligue 1 2024/25,world/africa/algeria/2024-25_dz1.json,240
+356,83,2024,2024,ec.1,fc-cache.wfb/2024/ec.1.csv,240
+357,83,2025,2025,Ecuador Serie A 2025,south-america/ecuador/2025_ec1.json,240
+358,38,2023,2023,Estonia Meistriliiga 2023,europe/estonia/2023_ee1.json,180
+359,38,2024,2024,Estonia Meistriliiga 2024,europe/estonia/2024_ee1.json,180
+360,38,2025,2025,Estonia Meistriliiga 2025,europe/estonia/2025_ee1.json,180
+361,190,2023/24,2023,Egypt | Premiership 2023/24,world/africa/egypt/2023-24_eg1.json,306
+362,190,2024/25,2024,Egypt | Premiership 2024/25,world/africa/egypt/2024-25_eg1.json,225
+363,37,2013/14,2013,English Premier League 2013/14,england/2013-14/1-premierleague.json,380
+364,37,2014/15,2014,English Premier League 2014/15,england/2014-15/1-premierleague.json,380
+365,37,2015/16,2015,English Premier League 2015/16,england/2015-16/1-premierleague.json,380
+366,37,2016/17,2016,English Premier League 2016/17,england/2016-17/1-premierleague.json,380
+367,37,2017/18,2017,English Premier League 2017/18,england/2017-18/1-premierleague.json,380
+368,37,2018/19,2018,English Premier League 2018/19,england/2018-19/1-premierleague.json,380
+369,37,2019/20,2019,English Premier League 2019/20,england/2019-20/1-premierleague.json,380
+370,37,2020/21,2020,English Premier League 2020/21,england/2020-21/1-premierleague.json,380
+371,37,2021/22,2021,English Premier League 2021/22,england/2021-22/1-premierleague.json,380
+372,37,2022/23,2022,English Premier League 2022/23,england/2022-23/1-premierleague.json,380
+373,37,2023/24,2023,English Premier League 2023/24,england/2023-24/1-premierleague.json,380
+374,37,2024/25,2024,English Premier League 2024/25,england/2024-25/1-premierleague.json,380
+375,37,2025/26,2025,England | Premier League 2025/26,england/2025-26/1-premierleague.json,380
+376,37,2026/27,2026,English Premier League 2026/27,england/2026-27/1-premierleague.json,380
+377,279,2013/14,2013,English Championship 2013/14,england/2013-14/2-championship.json,552
+378,279,2014/15,2014,English Championship 2014/15,england/2014-15/2-championship.json,552
+379,279,2015/16,2015,English Championship 2015/16,england/2015-16/2-championship.json,552
+380,279,2016/17,2016,English Championship 2016/17,england/2016-17/2-championship.json,552
+381,279,2017/18,2017,English Championship 2017/18,england/2017-18/2-championship.json,552
+382,279,2018/19,2018,English Championship 2018/19,england/2018-19/2-championship.json,552
+383,279,2019/20,2019,English Championship 2019/20,england/2019-20/2-championship.json,552
+384,279,2020/21,2020,English Championship 2020/21,england/2020-21/2-championship.json,552
+385,279,2021/22,2021,English Championship 2021/22,england/2021-22/2-championship.json,557
+386,279,2022/23,2022,English Championship 2022/23,england/2022-23/2-championship.json,557
+387,279,2023/24,2023,English Championship 2023/24,england/2023-24/2-championship.json,557
+388,279,2024/25,2024,English Championship 2024/25,england/2024-25/2-championship.json,557
+389,279,2025/26,2025,English Championship 2025/26,england/2025-26/2-championship.json,557
+390,279,2026/27,2026,English Championship 2026/27,england/2026-27/2-championship.json,552
+391,280,2013/14,2013,English League One 2013/14,england/2013-14/3-league1.json,552
+392,280,2014/15,2014,English League One 2014/15,england/2014-15/3-league1.json,552
+393,280,2015/16,2015,English League One 2015/16,england/2015-16/3-league1.json,552
+394,280,2016/17,2016,English League One 2016/17,england/2016-17/3-league1.json,552
+395,280,2017/18,2017,English League One 2017/18,england/2017-18/3-league1.json,552
+396,280,2018/19,2018,English League One 2018/19,england/2018-19/3-league1.json,552
+397,280,2019/20,2019,English League One 2019/20,england/2019-20/3-league1.json,506
+398,280,2020/21,2020,English League One 2020/21,england/2020-21/3-league1.json,552
+399,280,2021/22,2021,English League One 2021/22,england/2021-22/3-league1.json,552
+400,280,2022/23,2022,English League One 2022/23,england/2022-23/3-league1.json,552
+401,280,2023/24,2023,English League One 2023/24,england/2023-24/3-league1.json,552
+402,280,2024/25,2024,English League One 2024/25,england/2024-25/3-league1.json,552
+403,280,2025/26,2025,English League One 2025/26,england/2025-26/3-league1.json,552
+404,281,2013/14,2013,English League Two 2013/14,england/2013-14/4-league2.json,552
+405,281,2014/15,2014,English League Two 2014/15,england/2014-15/4-league2.json,552
+406,281,2015/16,2015,English League Two 2015/16,england/2015-16/4-league2.json,552
+407,281,2016/17,2016,English League Two 2016/17,england/2016-17/4-league2.json,552
+408,281,2017/18,2017,English League Two 2017/18,england/2017-18/4-league2.json,552
+409,281,2018/19,2018,English League Two 2018/19,england/2018-19/4-league2.json,552
+410,281,2019/20,2019,English League Two 2019/20,england/2019-20/4-league2.json,552
+411,281,2020/21,2020,English League Two 2020/21,england/2020-21/4-league2.json,552
+412,281,2021/22,2021,English League Two 2021/22,england/2021-22/4-league2.json,552
+413,281,2022/23,2022,English League Two 2022/23,england/2022-23/4-league2.json,552
+414,281,2023/24,2023,English League Two 2023/24,england/2023-24/4-league2.json,552
+415,281,2024/25,2024,English League Two 2024/25,england/2024-25/4-league2.json,552
+416,281,2025/26,2025,English League Two 2025/26,england/2025-26/4-league2.json,552
+417,282,2013/14,2013,eng.5,fc-cache.footballdata/2013-14/eng.5.csv,552
+418,282,2014/15,2014,eng.5,fc-cache.footballdata/2014-15/eng.5.csv,552
+419,282,2015/16,2015,English National League 2015/16,england/2015-16/5-nationalleague.json,552
+420,282,2016/17,2016,English National League 2016/17,england/2016-17/5-nationalleague.json,552
+421,282,2017/18,2017,English National League 2017/18,england/2017-18/5-nationalleague.json,552
+422,282,2018/19,2018,English National League 2018/19,england/2018-19/5-nationalleague.json,552
+423,282,2019/20,2019,English National League 2019/20,england/2019-20/5-nationalleague.json,552
+424,282,2020/21,2020,English National League 2020/21,england/2020-21/5-nationalleague.json,506
+425,282,2021/22,2021,English National League 2021/22,england/2021-22/5-nationalleague.json,506
+426,282,2022/23,2022,English National League 2022/23,england/2022-23/5-nationalleague.json,552
+427,282,2023/24,2023,English National League 2023/24,england/2023-24/5-nationalleague.json,552
+428,282,2024/25,2024,English National League 2024/25,england/2024-25/5-nationalleague.json,552
+429,282,2025/26,2025,English National League 2025/26,england/2025-26/5-nationalleague.json,552
+430,283,2018/19,2018,English FA Cup 2018/19,england/2018-19/facup.json,150
+431,283,2019/20,2019,English FA Cup 2019/20,england/2019-20/facup.json,156
+432,283,2020/21,2020,English FA Cup 2020/21,england/2020-21/facup.json,123
+433,283,2021/22,2021,English FA Cup 2021/22,england/2021-22/facup.json,136
+434,283,2022/23,2022,English FA Cup 2022/23,england/2022-23/facup.json,144
+435,283,2023/24,2023,English FA Cup 2023/24,england/2023-24/facup.json,149
+436,283,2024/25,2024,English FA Cup 2024/25,england/2024-25/facup.json,123
+437,284,2018/19,2018,English EFL Cup 2018/19,england/2018-19/eflcup.json,93
+438,284,2019/20,2019,English EFL Cup 2019/20,england/2019-20/eflcup.json,93
+439,284,2020/21,2020,English EFL Cup 2020/21,england/2020-21/eflcup.json,91
+440,284,2021/22,2021,English EFL Cup 2021/22,england/2021-22/eflcup.json,93
+441,284,2022/23,2022,English EFL Cup 2022/23,england/2022-23/eflcup.json,93
+442,284,2023/24,2023,English EFL Cup 2023/24,england/2023-24/eflcup.json,93
+443,284,2024/25,2024,English EFL Cup 2024/25,england/2024-25/eflcup.json,93
+444,72,2013/14,2013,Primera División de España 2013/14,espana/2013-14/1-liga.json,380
+445,72,2014/15,2014,Primera División de España 2014/15,espana/2014-15/1-liga.json,380
+446,72,2015/16,2015,Primera División de España 2015/16,espana/2015-16/1-liga.json,380
+447,72,2016/17,2016,Primera División de España 2016/17,espana/2016-17/1-liga.json,380
+448,72,2017/18,2017,Primera División de España 2017/18,espana/2017-18/1-liga.json,380
+449,72,2018/19,2018,Primera División de España 2018/19,espana/2018-19/1-liga.json,380
+450,72,2019/20,2019,Primera División de España 2019/20,espana/2019-20/1-liga.json,380
+451,72,2020/21,2020,Primera División de España 2020/21,espana/2020-21/1-liga.json,380
+452,72,2021/22,2021,Primera División de España 2021/22,espana/2021-22/1-liga.json,380
+453,72,2022/23,2022,Primera División de España 2022/23,espana/2022-23/1-liga.json,380
+454,72,2023/24,2023,Primera División de España 2023/24,espana/2023-24/1-liga.json,380
+455,72,2024/25,2024,Spain Primera División 2024/25,espana/2024-25/1-liga.json,380
+456,72,2025/26,2025,Spain | Primera División 2025/26,espana/2025-26/1-liga.json,380
+457,72,2026/27,2026,Spain Primera División 2026/27,espana/2026-27/1-liga.json,380
+458,285,2013/14,2013,Segunda División de España 2013/14,espana/2013-14/2-liga2.json,462
+459,285,2014/15,2014,Segunda División de España 2014/15,espana/2014-15/2-liga2.json,462
+460,285,2015/16,2015,Segunda División de España 2015/16,espana/2015-16/2-liga2.json,462
+461,285,2016/17,2016,Segunda División de España 2016/17,espana/2016-17/2-liga2.json,462
+462,285,2017/18,2017,Segunda División de España 2017/18,espana/2017-18/2-liga2.json,462
+463,285,2018/19,2018,Segunda División de España 2018/19,espana/2018-19/2-liga2.json,462
+464,285,2019/20,2019,Segunda División de España 2019/20,espana/2019-20/2-liga2.json,462
+465,285,2020/21,2020,Segunda División de España 2020/21,espana/2020-21/2-liga2.json,462
+466,285,2021/22,2021,Segunda División de España 2021/22,espana/2021-22/2-liga2.json,462
+467,285,2022/23,2022,Segunda División de España 2022/23,espana/2022-23/2-liga2.json,462
+468,285,2023/24,2023,Segunda División de España 2023/24,espana/2023-24/2-liga2.json,462
+469,285,2024/25,2024,Spain Segunda División 2024/25,espana/2024-25/2-liga2.json,462
+470,285,2025/26,2025,Spain Segunda División 2025/26,espana/2025-26/2-liga2.json,462
+471,286,2020/21,2020,Copa del Rey de España 2020/21,espana/2020-21/cup.json,127
+472,286,2021/22,2021,Copa del Rey de España 2021/22,espana/2021-22/cup.json,127
+473,286,2022/23,2022,Copa del Rey de España 2022/23,espana/2022-23/cup.json,126
+474,286,2023/24,2023,Copa del Rey de España 2023/24,espana/2023-24/cup.json,126
+475,286,2024/25,2024,Spain Copa del Rey 2024/25,espana/2024-25/cup.json,126
+476,40,2013,2013,fi.1,fc-cache.footballdata/2013/fi.1.csv,198
+477,40,2014,2014,fi.1,fc-cache.footballdata/2014/fi.1.csv,198
+478,40,2015,2015,fi.1,fc-cache.footballdata/2015/fi.1.csv,200
+479,40,2016,2016,fi.1,fc-cache.footballdata/2016/fi.1.csv,200
+480,40,2017,2017,fi.1,fc-cache.footballdata/2017/fi.1.csv,200
+481,40,2018,2018,fi.1,fc-cache.footballdata/2018/fi.1.csv,200
+482,40,2019,2019,fi.1,fc-cache.wfb/2019/fi.1.csv,167
+483,40,2020,2020,fi.1,fc-cache.wfb/2020/fi.1.csv,132
+484,40,2021,2021,fi.1,fc-cache.footballdata/2021/fi.1.csv,164
+485,40,2022,2022,fi.1,fc-cache.footballdata/2022/fi.1.csv,170
+486,40,2023,2023,Finland Veikkausliiga 2023,europe/finland/2023_fi1.json,167
+487,40,2024,2024,Finland Veikkausliiga 2024,europe/finland/2024_fi1.json,167
+488,40,2025,2025,Finland Veikkausliiga 2025,europe/finland/2025_fi1.json,132
+489,22,2013,2013,Club World Cup 2013,club-worldcup/2013/clubworldcup.json,8
+490,22,2014,2014,Club World Cup 2014,club-worldcup/2014/clubworldcup.json,8
+491,22,2015,2015,Club World Cup 2015,club-worldcup/2015/clubworldcup.json,8
+492,22,2016,2016,Club World Cup 2016,club-worldcup/2016/clubworldcup.json,8
+493,22,2017,2017,Club World Cup 2017,club-worldcup/2017/clubworldcup.json,8
+494,22,2018,2018,Club World Cup 2018,club-worldcup/2018/clubworldcup.json,8
+495,22,2019,2019,Club World Cup 2019,club-worldcup/2019/clubworldcup.json,8
+496,22,2020,2020,Club World Cup 2020,club-worldcup/2020/clubworldcup.json,8
+497,22,2021,2021,Club World Cup 2021,club-worldcup/2021/clubworldcup.json,8
+498,22,2022,2022,Club World Cup 2022,club-worldcup/2022/clubworldcup.json,7
+499,22,2023,2023,Club World Cup 2023,club-worldcup/2023/clubworldcup.json,7
+500,22,2025,2025,Club World Cup 2025,club-worldcup/2025/clubworldcup.json,64
+501,39,2023,2023,Faroe Islands Premier Division 2023,europe/faroe-islands/2023_fo1.json,135
+502,39,2024,2024,Faroe Islands Premier Division 2024,europe/faroe-islands/2024_fo1.json,135
+503,39,2025,2025,Faroe Islands Premier Division 2025,europe/faroe-islands/2025_fo1.json,135
+504,41,2013/14,2013,fr.1,fc-cache.footballdata/2013-14/fr.1.csv,380
+505,41,2014/15,2014,French Ligue 1 2014/15,europe/france/2014-15_fr1.json,380
+506,41,2015/16,2015,French Ligue 1 2015/16,europe/france/2015-16_fr1.json,380
+507,41,2016/17,2016,French Ligue 1 2016/17,europe/france/2016-17_fr1.json,380
+508,41,2017/18,2017,French Ligue 1 2017/18,europe/france/2017-18_fr1.json,380
+509,41,2018/19,2018,French Ligue 1 2018/19,europe/france/2018-19_fr1.json,380
+510,41,2019/20,2019,French Ligue 1 2019/20,europe/france/2019-20_fr1.json,380
+511,41,2020/21,2020,French Ligue 1 2020/21,europe/france/2020-21_fr1.json,380
+512,41,2021/22,2021,French Ligue 1 2021/22,europe/france/2021-22_fr1.json,380
+513,41,2022/23,2022,French Ligue 1 2022/23,europe/france/2022-23_fr1.json,380
+514,41,2023/24,2023,French Ligue 1 2023/24,europe/france/2023-24_fr1.json,306
+515,41,2024/25,2024,French Ligue 1 2024/25,europe/france/2024-25_fr1.json,306
+516,41,2025/26,2025,France | Ligue 1 2025/26,europe/france/2025-26_fr1.json,306
+517,41,2026/27,2026,French Ligue 1 2026/27,europe/france/2026-27_fr1.json,306
+518,287,2013/14,2013,fr.2,fc-cache.footballdata/2013-14/fr.2.csv,380
+519,287,2014/15,2014,French Ligue 2 2014/15,europe/france/2014-15_fr2.json,380
+520,287,2015/16,2015,French Ligue 2 2015/16,europe/france/2015-16_fr2.json,380
+521,287,2016/17,2016,French Ligue 2 2016/17,europe/france/2016-17_fr2.json,380
+522,287,2017/18,2017,French Ligue 2 2017/18,europe/france/2017-18_fr2.json,380
+523,287,2018/19,2018,French Ligue 2 2018/19,europe/france/2018-19_fr2.json,380
+524,287,2019/20,2019,French Ligue 2 2019/20,europe/france/2019-20_fr2.json,380
+525,287,2020/21,2020,French Ligue 2 2020/21,europe/france/2020-21_fr2.json,380
+526,287,2021/22,2021,French Ligue 2 2021/22,europe/france/2021-22_fr2.json,380
+527,287,2022/23,2022,French Ligue 2 2022/23,europe/france/2022-23_fr2.json,380
+528,287,2023/24,2023,French Ligue 2 2023/24,europe/france/2023-24_fr2.json,380
+529,287,2024/25,2024,French Ligue 2 2024/25,europe/france/2024-25_fr2.json,306
+530,287,2025/26,2025,French Ligue 2 2025/26,europe/france/2025-26_fr2.json,306
+531,288,2023/24,2023,fr.cup,fc-cache.wfb/2023-24/fr.cup.csv,201
+532,288,2024/25,2024,French Coupe de France 2024/25,europe/france/2024-25_frcup.json,200
+533,42,2023,2023,Georgia Premier League A 2023,europe/georgia/2023_ge1.json,180
+534,42,2024,2024,Georgia Premier League A 2024,europe/georgia/2024_ge1.json,180
+535,42,2025,2025,Georgia Premier League A 2025,europe/georgia/2025_ge1.json,180
+536,197,2016/17,2016,Ghana | Premier League 2016/17,world/africa/ghana/2016-17_gh1.json,240
+537,197,2020/21,2020,Ghana | Premier League 2020/21,world/africa/ghana/2020-21_gh1.json,306
+538,197,2021/22,2021,Ghana | Premier League 2021/22,world/africa/ghana/2021-22_gh1.json,306
+539,197,2022/23,2022,Ghana | Premier League 2022/23,world/africa/ghana/2022-23_gh1.json,308
+540,197,2023/24,2023,Ghana | Premier League 2023/24,world/africa/ghana/2023-24_gh1.json,306
+541,197,2024/25,2024,Ghana | Premier League 2024/25,world/africa/ghana/2024-25_gh1.json,306
+542,44,2023/24,2023,Gibraltar Premier League A 2023/24,europe/gibraltar/2023-24_gi1.json,125
+543,44,2024/25,2024,Gibraltar Premier League A 2024/25,europe/gibraltar/2024-25_gi1.json,125
+544,45,2013/14,2013,gr.1,fc-cache.footballdata/2013-14/gr.1.csv,306
+545,45,2014/15,2014,gr.1,fc-cache.footballdata/2014-15/gr.1.csv,306
+546,45,2015/16,2015,gr.1,fc-cache.footballdata/2015-16/gr.1.csv,240
+547,45,2016/17,2016,gr.1,fc-cache.footballdata/2016-17/gr.1.csv,240
+548,45,2017/18,2017,gr.1,fc-cache.footballdata/2017-18/gr.1.csv,240
+549,45,2018/19,2018,Greek Super League 2018/19,europe/greece/2018-19_gr1.json,240
+550,45,2019/20,2019,Greek Super League 2019/20,europe/greece/2019-20_gr1.json,240
+551,45,2020/21,2020,Greek Super League 2020/21,europe/greece/2020-21_gr1.json,240
+552,45,2021/22,2021,gr.1,fc-cache.footballdata/2021-22/gr.1.csv,240
+553,45,2022/23,2022,gr.1,fc-cache.footballdata/2022-23/gr.1.csv,240
+554,45,2023/24,2023,Greek Super League 2023/24,europe/greece/2023-24_gr1.json,240
+555,45,2024/25,2024,Greek Super League 2024/25,europe/greece/2024-25_gr1.json,236
+556,45,2025/26,2025,Greek Super League 2025/26,europe/greece/2025-26_gr1.json,182
+557,45,2026/27,2026,Greece | Super League 2026/27,europe/greece/2026-27_gr1.json,182
+558,33,2023/24,2023,Croatia HNL 2023/24,europe/croatia/2023-24_hr1.json,180
+559,33,2024/25,2024,Croatia HNL 2024/25,europe/croatia/2024-25_hr1.json,180
+560,46,2018/19,2018,Hungarian Nemzeti Bajnokság I 2018/19,europe/hungary/2018-19_hu1.json,198
+561,46,2020/21,2020,Hungarian Nemzeti Bajnokság I 2020/21,europe/hungary/2020-21_hu1.json,198
+562,46,2023/24,2023,Hungarian Nemzeti Bajnokság I 2023/24,europe/hungary/2023-24_hu1.json,198
+563,46,2024/25,2024,Hungarian Nemzeti Bajnokság I 2024/25,europe/hungary/2024-25_hu1.json,198
+564,289,2024/25,2024,Hungarian Cup 2024/25,europe/hungary/2024-25_hucup.json,63
+565,48,2013,2013,ie.1,fc-cache.footballdata/2013/ie.1.csv,202
+566,48,2014,2014,ie.1,fc-cache.footballdata/2014/ie.1.csv,202
+567,48,2015,2015,ie.1,fc-cache.footballdata/2015/ie.1.csv,202
+568,48,2016,2016,ie.1,fc-cache.footballdata/2016/ie.1.csv,202
+569,48,2017,2017,ie.1,fc-cache.footballdata/2017/ie.1.csv,198
+570,48,2018,2018,ie.1,fc-cache.footballdata/2018/ie.1.csv,185
+571,48,2019,2019,ie.1,fc-cache.wfb/2019/ie.1.csv,180
+572,48,2020,2020,ie.1,fc-cache.wfb/2020/ie.1.csv,90
+573,48,2021,2021,ie.1,fc-cache.footballdata/2021/ie.1.csv,186
+574,48,2022,2022,ie.1,fc-cache.footballdata/2022/ie.1.csv,181
+575,48,2023,2023,Irish Premier Division 2023,europe/ireland/2023_ie1.json,180
+576,48,2024,2024,Irish Premier Division 2024,europe/ireland/2024_ie1.json,180
+577,48,2025,2025,Irish Premier Division 2025,europe/ireland/2025_ie1.json,180
+578,49,2023/24,2023,Israel | Premier League 2023/24,world/middle-east/israel/2023-24_il1.json,240
+579,49,2024/25,2024,Israel | Premier League 2024/25,world/middle-east/israel/2024-25_il1.json,240
+580,290,2024/25,2024,Israel National League 2024/25,world/middle-east/israel/2024-25_il2.json,296
+581,291,2024/25,2024,Israel State Cup 2024/25,world/middle-east/israel/2024-25_ilcup.json,31
+582,47,2019,2019,is.1,fc-cache.wfb/2019/is.1.csv,132
+583,47,2020,2020,is.1,fc-cache.wfb/2020/is.1.csv,132
+584,47,2023,2023,Iceland Urvalsdeild 2023,europe/iceland/2023_is1.json,162
+585,47,2024,2024,Iceland Úrvalsdeild 2024,europe/iceland/2024_is1.json,162
+586,47,2025,2025,Iceland Úrvalsdeild 2025,europe/iceland/2025_is1.json,132
+587,292,2025,2025,Iceland Cup 2025,europe/iceland/2025_iscup.json,68
+588,50,2013/14,2013,Italian Serie A 2013/14,italy/2013-14/1-seriea.json,380
+589,50,2014/15,2014,Italian Serie A 2014/15,italy/2014-15/1-seriea.json,380
+590,50,2015/16,2015,Italian Serie A 2015/16,italy/2015-16/1-seriea.json,380
+591,50,2016/17,2016,Italian Serie A 2016/17,italy/2016-17/1-seriea.json,380
+592,50,2017/18,2017,Italian Serie A 2017/18,italy/2017-18/1-seriea.json,380
+593,50,2018/19,2018,Italian Serie A 2018/19,italy/2018-19/1-seriea.json,380
+594,50,2019/20,2019,Italian Serie A 2019/20,italy/2019-20/1-seriea.json,380
+595,50,2020/21,2020,Italian Serie A 2020/21,italy/2020-21/1-seriea.json,380
+596,50,2021/22,2021,Italian Serie A 2021/22,italy/2021-22/1-seriea.json,380
+597,50,2022/23,2022,Italian Serie A 2022/23,italy/2022-23/1-seriea.json,380
+598,50,2023/24,2023,Italian Serie A 2023/24,italy/2023-24/1-seriea.json,380
+599,50,2024/25,2024,Italian Serie A 2024/25,italy/2024-25/1-seriea.json,380
+600,50,2025/26,2025,Italy | Serie A 2025/26,italy/2025-26/1-seriea.json,380
+601,50,2026/27,2026,Italian Serie A 2026/27,italy/2026-27/1-seriea.json,380
+602,293,2013/14,2013,Italian Serie B 2013/14,italy/2013-14/2-serieb.json,472
+603,293,2014/15,2014,Italian Serie B 2014/15,italy/2014-15/2-serieb.json,472
+604,293,2015/16,2015,Italian Serie B 2015/16,italy/2015-16/2-serieb.json,472
+605,293,2016/17,2016,Italian Serie B 2016/17,italy/2016-17/2-serieb.json,470
+606,293,2017/18,2017,Italian Serie B 2017/18,italy/2017-18/2-serieb.json,472
+607,293,2018/19,2018,Italian Serie B 2018/19,italy/2018-19/2-serieb.json,352
+608,293,2019/20,2019,Italian Serie B 2019/20,italy/2019-20/2-serieb.json,390
+609,293,2020/21,2020,Italian Serie B 2020/21,italy/2020-21/2-serieb.json,388
+610,293,2021/22,2021,Italian Serie B 2021/22,italy/2021-22/2-serieb.json,390
+611,293,2022/23,2022,Italian Serie B 2022/23,italy/2022-23/2-serieb.json,390
+612,293,2023/24,2023,Italian Serie B 2023/24,italy/2023-24/2-serieb.json,390
+613,293,2024/25,2024,Italian Serie B 2024/25,italy/2024-25/2-serieb.json,390
+614,293,2025/26,2025,Italian Serie B 2025/26,italy/2025-26/2-serieb.json,380
+615,294,2023/24,2023,it.3.a,fc-cache.wfb/2023-24/it.3.a.csv,382
+616,294,2024/25,2024,Italian Serie C (North & Central West) 2024/25,italy/2024-25/3-seriec_a.json,380
+617,295,2023/24,2023,it.3.b,fc-cache.wfb/2023-24/it.3.b.csv,382
+618,295,2024/25,2024,Italian Serie C (North & Central East) 2024/25,italy/2024-25/3-seriec_b.json,380
+619,296,2023/24,2023,it.3.c,fc-cache.wfb/2023-24/it.3.c.csv,384
+620,296,2024/25,2024,Italian Serie C (South) 2024/25,italy/2024-25/3-seriec_c.json,380
+621,297,2020/21,2020,Coppa Italia 2020/21,italy/2020-21/cup.json,79
+622,297,2021/22,2021,Coppa Italia 2021/22,italy/2021-22/cup.json,45
+623,297,2022/23,2022,Coppa Italia 2022/23,italy/2022-23/cup.json,45
+624,297,2023/24,2023,Coppa Italia 2023/24,italy/2023-24/cup.json,45
+625,297,2024/25,2024,Coppa Italia 2024/25,italy/2024-25/cup.json,45
+626,144,2013,2013,jp.1,fc-cache.footballdata/2013/jp.1.csv,306
+627,144,2014,2014,jp.1,fc-cache.footballdata/2014/jp.1.csv,306
+628,144,2015,2015,jp.1,fc-cache.footballdata/2015/jp.1.csv,309
+629,144,2016,2016,jp.1,fc-cache.footballdata/2016/jp.1.csv,309
+630,144,2017,2017,jp.1,fc-cache.footballdata/2017/jp.1.csv,306
+631,144,2018,2018,jp.1,fc-cache.footballdata/2018/jp.1.csv,309
+632,144,2019,2019,Japan | J1 League 2019,world/asia/japan/2019_jp1.json,306
+633,144,2020,2020,Japan | J1 League 2020,world/asia/japan/2020_jp1.json,306
+634,144,2021,2021,Japan | J1 League 2021,world/asia/japan/2021_jp1.json,380
+635,144,2022,2022,Japan | J1 League 2022,world/asia/japan/2022_jp1.json,306
+636,144,2023,2023,Japan | J1 League 2023,world/asia/japan/2023_jp1.json,306
+637,144,2024,2024,Japan | J1 League 2024,world/asia/japan/2024_jp1.json,380
+638,144,2025,2025,Japan | J1 League 2025,world/asia/japan/2025_jp1.json,380
+639,298,2024,2024,jp.2,fc-cache.wfb/2024/jp.2.csv,380
+640,299,2024,2024,jp.cup,fc-cache.wfb/2024/jp.cup.csv,87
+641,201,2022/23,2022,Kenya | Premier League 2022/23,world/africa/kenya/2022-23_ke1.json,306
+642,201,2023/24,2023,Kenya | Premier League 2023/24,world/africa/kenya/2023-24_ke1.json,306
+643,201,2024/25,2024,Kenya | Premier League 2024/25,world/africa/kenya/2024-25_ke1.json,306
+644,201,2025/26,2025,Kenya | Premier League 2025/26,world/africa/kenya/2025-26_ke1.json,306
+645,52,2023/24,2023,Kosovo Superliga A 2023/24,europe/kosovo/2023-24_kos1.json,180
+646,52,2024/25,2024,Kosovo Superliga A 2024/25,europe/kosovo/2024-25_kos1.json,180
+647,147,2024,2024,kr.1,fc-cache.wfb/2024/kr.1.csv,198
+648,51,2023,2023,Kazakhstan | Premier League 2023,world/asia/kazakhstan/2023_kz1.json,182
+649,51,2024,2024,Kazakhstan | Premier League 2024,world/asia/kazakhstan/2024_kz1.json,156
+650,51,2025,2025,Kazakhstan | Premier League 2025,world/asia/kazakhstan/2025_kz1.json,182
+651,300,2023/24,2023,Liechtensteiner Pokal 2023/24,europe/liechtenstein/2023-24_licup.json,16
+652,300,2024/25,2024,Liechtensteiner Pokal 2024/25,europe/liechtenstein/2024-25_licup.json,16
+653,54,2023,2023,Lithuania First Division 2023,europe/lithuania/2023_lt1.json,180
+654,54,2024,2024,Lithuania First Division 2024,europe/lithuania/2024_lt1.json,180
+655,54,2025,2025,Lithuania First Division 2025,europe/lithuania/2025_lt1.json,90
+656,55,2023/24,2023,Luxembourg National Division 2023/24,europe/luxembourg/2023-24_lu1.json,240
+657,55,2024/25,2024,Luxembourg National Division 2024/25,europe/luxembourg/2024-25_lu1.json,240
+658,53,2023,2023,Latvia Higher League 2023,europe/latvia/2023_lv1.json,180
+659,53,2024,2024,Latvia Higher League 2024,europe/latvia/2024_lv1.json,180
+660,53,2025,2025,Latvia Higher League 2025,europe/latvia/2025_lv1.json,180
+661,210,2023/24,2023,Morocco | Botola Pro 1 2023/24,world/africa/morocco/2023-24_ma1.json,240
+662,210,2024/25,2024,Morocco | Botola Pro 1 2024/25,world/africa/morocco/2024-25_ma1.json,200
+663,57,2023/24,2023,Moldova First Division 2023/24,europe/moldova/2023-24_md1.json,86
+664,57,2024/25,2024,Moldova First Division 2024/25,europe/moldova/2024-25_md1.json,86
+665,58,2023/24,2023,Montenegro First League 2023/24,europe/montenegro/2023-24_me1.json,180
+666,58,2024/25,2024,Montenegro First League 2024/25,europe/montenegro/2024-25_me1.json,180
+667,60,2023/24,2023,North Macedonia First League 2023/24,europe/north-macedonia/2023-24_mk1.json,198
+668,60,2024/25,2024,North Macedonia First League 2024/25,europe/north-macedonia/2024-25_mk1.json,198
+669,56,2023/24,2023,Malta Premier League 2023/24,europe/malta/2023-24_mt1.json,182
+670,56,2024/25,2024,Malta Premier League 2024/25,europe/malta/2024-25_mt1.json,197
+671,206,2023,2023,Malawi | Super League 2023,world/africa/malawi/2023_mw1.json,240
+672,206,2024,2024,Malawi | Super League 2024,world/africa/malawi/2024_mw1.json,240
+673,206,2025,2025,Malawi | Super League 2025,world/africa/malawi/2025_mw1.json,241
+674,110,2013/14,2013,Liga MX 2013/14,world/north-america/mexico/2013-14_mx1.json,334
+675,110,2014/15,2014,Liga MX 2014/15,world/north-america/mexico/2014-15_mx1.json,334
+676,110,2015/16,2015,Liga MX 2015/16,world/north-america/mexico/2015-16_mx1.json,334
+677,110,2016/17,2016,Liga MX 2016/17,world/north-america/mexico/2016-17_mx1.json,334
+678,110,2017/18,2017,Liga MX 2017/18,world/north-america/mexico/2017-18_mx1.json,334
+679,110,2018/19,2018,Liga MX 2018/19,world/north-america/mexico/2018-19_mx1.json,334
+680,110,2019/20,2019,Liga MX 2019/20,world/north-america/mexico/2019-20_mx1.json,338
+681,110,2020/21,2020,Liga MX 2020/21,world/north-america/mexico/2020-21_mx1.json,342
+682,110,2021/22,2021,Liga MX 2021/22,world/north-america/mexico/2021-22_mx1.json,342
+683,110,2022/23,2022,Liga MX 2022/23,world/north-america/mexico/2022-23_mx1.json,342
+684,110,2023/24,2023,Liga MX 2023/24,world/north-america/mexico/2023-24_mx1.json,340
+685,110,2024/25,2024,Liga MX 2024/25,world/north-america/mexico/2024-25_mx1.json,340
+686,301,2013/14,2013,Ascenso MX 2013/14,world/north-america/mexico/2013-14_mx2ascenso.json,236
+687,301,2014/15,2014,Ascenso MX 2014/15,world/north-america/mexico/2014-15_mx2ascenso.json,208
+688,301,2015/16,2015,Ascenso MX 2015/16,world/north-america/mexico/2015-16_mx2ascenso.json,266
+689,301,2016/17,2016,Ascenso MX 2016/17,world/north-america/mexico/2016-17_mx2ascenso.json,336
+690,301,2017/18,2017,Ascenso MX 2017/18,world/north-america/mexico/2017-18_mx2ascenso.json,270
+691,301,2018/19,2018,Ascenso MX 2018/19,world/north-america/mexico/2018-19_mx2ascenso.json,238
+692,301,2019/20,2019,Ascenso MX 2019/20,world/north-america/mexico/2019-20_mx2ascenso.json,169
+693,301,2020/21,2020,Liga de Expansión MX 2020/21,world/north-america/mexico/2020-21_mx2expansion.json,276
+694,301,2021/22,2021,Liga de Expansión MX 2021/22,world/north-america/mexico/2021-22_mx2expansion.json,310
+695,301,2022/23,2022,Liga de Expansión MX 2022/23,world/north-america/mexico/2022-23_mx2expansion.json,344
+696,301,2023/24,2023,Liga de Expansión MX 2023/24,world/north-america/mexico/2023-24_mx2expansion.json,246
+697,301,2024/25,2024,Liga de Expansión MX 2024/25,world/north-america/mexico/2024-25_mx2expansion.json,224
+698,302,2019/20,2019,mx.cup,fc-cache.wfb/2019-20/mx.cup.csv,84
+699,214,2013/14,2013,Nigeria | Premier Football League 2013/2014,world/africa/nigeria/2013-14_ng1.json,380
+700,214,2014/15,2014,Nigeria | Premier Football League 2014/2015,world/africa/nigeria/2014-15_ng1.json,380
+701,214,2015/16,2015,Nigeria | Premier Football League 2015/2016,world/africa/nigeria/2015-16_ng1.json,360
+702,214,2016/17,2016,Nigeria | Premier Football League 2016/2017,world/africa/nigeria/2016-17_ng1.json,380
+703,214,2017/18,2017,Nigeria | Premier Football League 2017/2018,world/africa/nigeria/2017-18_ng1.json,240
+704,214,2018/19,2018,Nigeria Professional Football League 2018/2019,world/africa/nigeria/2018-19_ng1.json,279
+705,214,2020/21,2020,Nigeria | Premier Football League 2020/2021,world/africa/nigeria/2020-21_ng1.json,380
+706,214,2021/22,2021,Nigeria Professional League 2021/2022,world/africa/nigeria/2021-22_ng1.json,380
+707,214,2022/23,2022,Nigeria Professional Football League 2022/2023,world/africa/nigeria/2022-23_ng1.json,195
+708,214,2023/24,2023,Nigeria Professional League 2023/2024,world/africa/nigeria/2023-24_ng1.json,380
+709,214,2024/25,2024,Nigeria Professional League 2024/2025,world/africa/nigeria/2024-25_ng1.json,380
+710,214,2025/26,2025,Nigeria Professional League 2025/2026,world/africa/nigeria/2025-26_ng1.json,380
+711,303,2017/18,2017,Nigeria National League 2017/2018,world/africa/nigeria/2017-18_ng2.json,297
+712,303,2018/19,2018,Nigeria National League 2018/2019,world/africa/nigeria/2018-19_ng2.json,184
+713,303,2020/21,2020,Nigeria National League 2020/2021,world/africa/nigeria/2020-21_ng2.json,480
+714,303,2021/22,2021,Nigeria National League 2021/2022,world/africa/nigeria/2021-22_ng2.json,494
+715,303,2022/23,2022,Nigeria National League 2022/2023,world/africa/nigeria/2022-23_ng2.json,215
+716,303,2023/24,2023,Nigeria National League 2023/2024,world/africa/nigeria/2023-24_ng2.json,378
+717,303,2024/25,2024,Nigeria National League 2024/2025,world/africa/nigeria/2024-25_ng2.json,311
+718,303,2025/26,2025,Nigeria National League 2025/2026,world/africa/nigeria/2025-26_ng2.json,275
+719,61,2023/24,2023,Northern Irish Premiership 2023/24,europe/northern-ireland/2023-24_nir1.json,198
+720,61,2024/25,2024,Northern Irish Premiership 2024/25,europe/northern-ireland/2024-25_nir1.json,231
+721,59,2013/14,2013,nl.1,fc-cache.footballdata/2013-14/nl.1.csv,306
+722,59,2014/15,2014,nl.1,fc-cache.footballdata/2014-15/nl.1.csv,306
+723,59,2015/16,2015,nl.1,fc-cache.footballdata/2015-16/nl.1.csv,306
+724,59,2016/17,2016,nl.1,fc-cache.footballdata/2016-17/nl.1.csv,306
+725,59,2017/18,2017,nl.1,fc-cache.footballdata/2017-18/nl.1.csv,306
+726,59,2018/19,2018,Netherlands Eredivisie 2018/19,europe/netherlands/2018-19_nl1.json,306
+727,59,2019/20,2019,Netherlands Eredivisie 2019/20,europe/netherlands/2019-20_nl1.json,306
+728,59,2020/21,2020,Netherlands Eredivisie 2020/21,europe/netherlands/2020-21_nl1.json,306
+729,59,2021/22,2021,Netherlands Eredivisie 2021/22,europe/netherlands/2021-22_nl1.json,306
+730,59,2022/23,2022,Netherlands Eredivisie 2022/23,europe/netherlands/2022-23_nl1.json,306
+731,59,2023/24,2023,Netherlands Eredivisie 2023/24,europe/netherlands/2023-24_nl1.json,306
+732,59,2024/25,2024,Netherlands Eredivisie 2024/25,europe/netherlands/2024-25_nl1.json,306
+733,59,2025/26,2025,Netherlands Eredivisie 2025/26,europe/netherlands/2025-26_nl1.json,306
+734,59,2026/27,2026,Netherlands Eredivisie 2026/27,europe/netherlands/2026-27_nl1.json,306
+735,304,2020/21,2020,Netherlands Eerste Divisie 2020/21,europe/netherlands/2020-21_nl2.json,380
+736,304,2021/22,2021,Netherlands Eerste Divisie 2021/22,europe/netherlands/2021-22_nl2.json,380
+737,304,2022/23,2022,Netherlands Eerste Divisie 2022/23,europe/netherlands/2022-23_nl2.json,380
+738,304,2023/24,2023,Netherlands Eerste Divisie 2023/24,europe/netherlands/2023-24_nl2.json,380
+739,304,2024/25,2024,Netherlands Eerste Divisie 2024/25,europe/netherlands/2024-25_nl2.json,380
+740,305,2024/25,2024,Netherlands Cup 2024/25,europe/netherlands/2024-25_nlcup.json,109
+741,62,2013,2013,no.1,fc-cache.footballdata/2013/no.1.csv,242
+742,62,2014,2014,no.1,fc-cache.footballdata/2014/no.1.csv,242
+743,62,2015,2015,no.1,fc-cache.footballdata/2015/no.1.csv,242
+744,62,2016,2016,no.1,fc-cache.footballdata/2016/no.1.csv,242
+745,62,2017,2017,no.1,fc-cache.footballdata/2017/no.1.csv,242
+746,62,2018,2018,no.1,fc-cache.footballdata/2018/no.1.csv,241
+747,62,2019,2019,no.1,fc-cache.wfb/2019/no.1.csv,240
+748,62,2020,2020,no.1,fc-cache.wfb/2020/no.1.csv,240
+749,62,2021,2021,no.1,fc-cache.footballdata/2021/no.1.csv,241
+750,62,2022,2022,no.1,fc-cache.footballdata/2022/no.1.csv,242
+751,62,2023,2023,Norway Eliteserien 2023,europe/norway/2023_no1.json,240
+752,62,2024,2024,Norway Eliteserien 2024,europe/norway/2024_no1.json,240
+753,62,2025,2025,Norway Eliteserien 2025,europe/norway/2025_no1.json,240
+754,306,2025,2025,Norway 1. Division 2025,europe/norway/2025_no2.json,240
+755,307,2025,2025,Norway Cupen 2025,europe/norway/2025_nocup.json,112
+756,63,2013/14,2013,pl.1,fc-cache.footballdata/2013-14/pl.1.csv,296
+757,63,2014/15,2014,pl.1,fc-cache.footballdata/2014-15/pl.1.csv,296
+758,63,2015/16,2015,pl.1,fc-cache.footballdata/2015-16/pl.1.csv,296
+759,63,2016/17,2016,pl.1,fc-cache.footballdata/2016-17/pl.1.csv,296
+760,63,2017/18,2017,pl.1,fc-cache.footballdata/2017-18/pl.1.csv,296
+761,63,2018/19,2018,pl.1,fc-cache.footballdata/2018-19/pl.1.csv,296
+762,63,2019/20,2019,pl.1,fc-cache.footballdata/2019-20/pl.1.csv,296
+763,63,2020/21,2020,pl.1,fc-cache.footballdata/2020-21/pl.1.csv,240
+764,63,2021/22,2021,pl.1,fc-cache.footballdata/2021-22/pl.1.csv,306
+765,63,2022/23,2022,pl.1,fc-cache.footballdata/2022-23/pl.1.csv,306
+766,63,2023/24,2023,Poland Ekstraklasa 2023/24,europe/poland/2023-24_pl1.json,306
+767,63,2024/25,2024,Poland Ekstraklasa 2024/25,europe/poland/2024-25_pl1.json,306
+768,308,2024/25,2024,Poland I Liga 2024/25,europe/poland/2024-25_pl2.json,306
+769,64,2013/14,2013,pt.1,fc-cache.footballdata/2013-14/pt.1.csv,240
+770,64,2014/15,2014,pt.1,fc-cache.footballdata/2014-15/pt.1.csv,306
+771,64,2015/16,2015,pt.1,fc-cache.footballdata/2015-16/pt.1.csv,306
+772,64,2016/17,2016,pt.1,fc-cache.footballdata/2016-17/pt.1.csv,306
+773,64,2017/18,2017,pt.1,fc-cache.footballdata/2017-18/pt.1.csv,306
+774,64,2018/19,2018,Portuguese Primeira Liga 2018/19,europe/portugal/2018-19_pt1.json,306
+775,64,2019/20,2019,Portuguese Primeira Liga 2019/20,europe/portugal/2019-20_pt1.json,306
+776,64,2020/21,2020,Portuguese Primeira Liga 2020/21,europe/portugal/2020-21_pt1.json,306
+777,64,2021/22,2021,Portuguese Primeira Liga 2021/22,europe/portugal/2021-22_pt1.json,306
+778,64,2022/23,2022,Portuguese Primeira Liga 2022/23,europe/portugal/2022-23_pt1.json,306
+779,64,2023/24,2023,Portuguese Primeira Liga 2023/24,europe/portugal/2023-24_pt1.json,306
+780,64,2024/25,2024,Portuguese Primeira Liga 2024/25,europe/portugal/2024-25_pt1.json,306
+781,64,2025/26,2025,Portuguese Primeira Liga 2025/26,europe/portugal/2025-26_pt1.json,306
+782,64,2026/27,2026,Portuguese Primeira Liga 2026/27,europe/portugal/2026-27_pt1.json,306
+783,309,2020/21,2020,Portuguese Segunda Liga 2020/21,europe/portugal/2020-21_pt2.json,306
+784,309,2021/22,2021,Portuguese Segunda Liga 2021/22,europe/portugal/2021-22_pt2.json,306
+785,309,2022/23,2022,Portuguese Segunda Liga 2022/23,europe/portugal/2022-23_pt2.json,306
+786,309,2023/24,2023,Portuguese Segunda Liga 2023/24,europe/portugal/2023-24_pt2.json,306
+787,309,2024/25,2024,Portuguese Segunda Liga 2024/25,europe/portugal/2024-25_pt2.json,306
+788,310,2024/25,2024,Portuguese Taça de Portugal 2024/25,europe/portugal/2024-25_ptcup.json,111
+789,84,2025,2025,Paraguay Primera Division 2025,south-america/paraguay/2025_py1.json,138
+790,65,2013/14,2013,ro.1,fc-cache.footballdata/2013-14/ro.1.csv,306
+791,65,2014/15,2014,ro.1,fc-cache.footballdata/2014-15/ro.1.csv,306
+792,65,2015/16,2015,ro.1,fc-cache.footballdata/2015-16/ro.1.csv,272
+793,65,2016/17,2016,ro.1,fc-cache.footballdata/2016-17/ro.1.csv,270
+794,65,2017/18,2017,ro.1,fc-cache.footballdata/2017-18/ro.1.csv,270
+795,65,2018/19,2018,ro.1,fc-cache.footballdata/2018-19/ro.1.csv,270
+796,65,2019/20,2019,ro.1,fc-cache.footballdata/2019-20/ro.1.csv,262
+797,65,2020/21,2020,ro.1,fc-cache.footballdata/2020-21/ro.1.csv,321
+798,65,2021/22,2021,ro.1,fc-cache.footballdata/2021-22/ro.1.csv,320
+799,65,2022/23,2022,ro.1,fc-cache.footballdata/2022-23/ro.1.csv,321
+800,65,2023/24,2023,Romania Liga 1 2023/24,europe/romania/2023-24_ro1.json,317
+801,65,2024/25,2024,Romania Liga 1 2024/25,europe/romania/2024-25_ro1.json,315
+802,311,2024/25,2024,Romania Cup 2024/25,europe/romania/2024-25_rocup.json,61
+803,69,2023/24,2023,Serbia Super League 2023/24,europe/serbia/2023-24_rs1.json,296
+804,69,2024/25,2024,Serbia Super League 2024/25,europe/serbia/2024-25_rs1.json,296
+805,66,2013/14,2013,ru.1,fc-cache.footballdata/2013-14/ru.1.csv,244
+806,66,2014/15,2014,ru.1,fc-cache.footballdata/2014-15/ru.1.csv,244
+807,66,2015/16,2015,ru.1,fc-cache.footballdata/2015-16/ru.1.csv,244
+808,66,2016/17,2016,ru.1,fc-cache.footballdata/2016-17/ru.1.csv,244
+809,66,2017/18,2017,ru.1,fc-cache.footballdata/2017-18/ru.1.csv,244
+810,66,2018/19,2018,Russia Premier League 2018/19,europe/russia/2018-19_ru1.json,240
+811,66,2019/20,2019,Russia Premier League 2019/20,europe/russia/2019-20_ru1.json,240
+812,66,2020/21,2020,Russia Premier League 2020/21,europe/russia/2020-21_ru1.json,240
+813,66,2021/22,2021,ru.1,fc-cache.footballdata/2021-22/ru.1.csv,244
+814,66,2022/23,2022,ru.1,fc-cache.footballdata/2022-23/ru.1.csv,244
+815,66,2023/24,2023,Russia Premier League 2023/24,europe/russia/2023-24_ru1.json,240
+816,66,2024/25,2024,Russia Premier League 2024/25,europe/russia/2024-25_ru1.json,240
+817,312,2019/20,2019,ru.2,fc-cache.wfb/2019-20/ru.2.csv,380
+818,215,2021/22,2021,Rwanda | Premier League 2021/22,world/africa/rwanda/2021-22_rw1.json,241
+819,215,2022/23,2022,Rwanda | Premier League 2022/23,world/africa/rwanda/2022-23_rw1.json,241
+820,215,2023/24,2023,Rwanda | Premier League 2023/24,world/africa/rwanda/2023-24_rw1.json,241
+821,215,2024/25,2024,Rwanda | Premier League 2024/25,world/africa/rwanda/2024-25_rw1.json,242
+822,163,2024/25,2024,Saudi Arabia Saudi Professional League 2024/25,world/middle-east/saudi-arabia/2024-25_sa1.json,306
+823,68,2013/14,2013,sco.1,fc-cache.footballdata/2013-14/sco.1.csv,228
+824,68,2014/15,2014,sco.1,fc-cache.footballdata/2014-15/sco.1.csv,228
+825,68,2015/16,2015,sco.1,fc-cache.footballdata/2015-16/sco.1.csv,228
+826,68,2016/17,2016,sco.1,fc-cache.footballdata/2016-17/sco.1.csv,228
+827,68,2017/18,2017,sco.1,fc-cache.footballdata/2017-18/sco.1.csv,228
+828,68,2018/19,2018,Scottish Premiership 2018/19,europe/scotland/2018-19_sco1.json,198
+829,68,2019/20,2019,Scottish Premiership 2019/20,europe/scotland/2019-20_sco1.json,198
+830,68,2020/21,2020,Scottish Premiership 2020/21,europe/scotland/2020-21_sco1.json,198
+831,68,2021/22,2021,sco.1,fc-cache.footballdata/2021-22/sco.1.csv,228
+832,68,2022/23,2022,sco.1,fc-cache.footballdata/2022-23/sco.1.csv,228
+833,68,2023/24,2023,Scottish Premiership 2023/24,europe/scotland/2023-24_sco1.json,228
+834,68,2024/25,2024,Scottish Premiership 2024/25,europe/scotland/2024-25_sco1.json,228
+835,68,2025/26,2025,Scottish Premiership 2025/26,europe/scotland/2025-26_sco1.json,198
+836,68,2026/27,2026,Scotland | Premiership 2026/27,europe/scotland/2026-27_sco1.json,198
+837,313,2013/14,2013,sco.2,fc-cache.footballdata/2013-14/sco.2.csv,180
+838,313,2014/15,2014,sco.2,fc-cache.footballdata/2014-15/sco.2.csv,180
+839,313,2015/16,2015,sco.2,fc-cache.footballdata/2015-16/sco.2.csv,180
+840,313,2016/17,2016,sco.2,fc-cache.footballdata/2016-17/sco.2.csv,180
+841,313,2017/18,2017,sco.2,fc-cache.footballdata/2017-18/sco.2.csv,180
+842,313,2018/19,2018,sco.2,fc-cache.footballdata/2018-19/sco.2.csv,180
+843,313,2019/20,2019,sco.2,fc-cache.footballdata/2019-20/sco.2.csv,137
+844,313,2020/21,2020,sco.2,fc-cache.footballdata/2020-21/sco.2.csv,135
+845,313,2021/22,2021,sco.2,fc-cache.footballdata/2021-22/sco.2.csv,180
+846,313,2022/23,2022,sco.2,fc-cache.footballdata/2022-23/sco.2.csv,180
+847,313,2023/24,2023,sco.2,fc-cache.footballdata/2023-24/sco.2.csv,180
+848,314,2013/14,2013,sco.3,fc-cache.footballdata/2013-14/sco.3.csv,180
+849,314,2014/15,2014,sco.3,fc-cache.footballdata/2014-15/sco.3.csv,180
+850,314,2015/16,2015,sco.3,fc-cache.footballdata/2015-16/sco.3.csv,180
+851,314,2016/17,2016,sco.3,fc-cache.footballdata/2016-17/sco.3.csv,180
+852,314,2017/18,2017,sco.3,fc-cache.footballdata/2017-18/sco.3.csv,180
+853,314,2018/19,2018,sco.3,fc-cache.footballdata/2018-19/sco.3.csv,180
+854,314,2019/20,2019,sco.3,fc-cache.footballdata/2019-20/sco.3.csv,139
+855,314,2020/21,2020,sco.3,fc-cache.footballdata/2020-21/sco.3.csv,110
+856,314,2021/22,2021,sco.3,fc-cache.footballdata/2021-22/sco.3.csv,180
+857,314,2022/23,2022,sco.3,fc-cache.footballdata/2022-23/sco.3.csv,180
+858,314,2023/24,2023,sco.3,fc-cache.footballdata/2023-24/sco.3.csv,180
+859,315,2013/14,2013,sco.4,fc-cache.footballdata/2013-14/sco.4.csv,180
+860,315,2014/15,2014,sco.4,fc-cache.footballdata/2014-15/sco.4.csv,180
+861,315,2015/16,2015,sco.4,fc-cache.footballdata/2015-16/sco.4.csv,180
+862,315,2016/17,2016,sco.4,fc-cache.footballdata/2016-17/sco.4.csv,180
+863,315,2017/18,2017,sco.4,fc-cache.footballdata/2017-18/sco.4.csv,180
+864,315,2018/19,2018,sco.4,fc-cache.footballdata/2018-19/sco.4.csv,180
+865,315,2019/20,2019,sco.4,fc-cache.footballdata/2019-20/sco.4.csv,137
+866,315,2020/21,2020,sco.4,fc-cache.footballdata/2020-21/sco.4.csv,110
+867,315,2021/22,2021,sco.4,fc-cache.footballdata/2021-22/sco.4.csv,180
+868,315,2022/23,2022,sco.4,fc-cache.footballdata/2022-23/sco.4.csv,180
+869,315,2023/24,2023,sco.4,fc-cache.footballdata/2023-24/sco.4.csv,180
+870,73,2013,2013,se.1,fc-cache.footballdata/2013/se.1.csv,242
+871,73,2014,2014,se.1,fc-cache.footballdata/2014/se.1.csv,242
+872,73,2015,2015,se.1,fc-cache.footballdata/2015/se.1.csv,242
+873,73,2016,2016,se.1,fc-cache.footballdata/2016/se.1.csv,242
+874,73,2017,2017,se.1,fc-cache.footballdata/2017/se.1.csv,242
+875,73,2018,2018,se.1,fc-cache.footballdata/2018/se.1.csv,242
+876,73,2019,2019,se.1,fc-cache.wfb/2019/se.1.csv,240
+877,73,2020,2020,se.1,fc-cache.wfb/2020/se.1.csv,240
+878,73,2021,2021,se.1,fc-cache.footballdata/2021/se.1.csv,242
+879,73,2022,2022,se.1,fc-cache.footballdata/2022/se.1.csv,242
+880,73,2023,2023,Sweden Allsvenskan 2023,europe/sweden/2023_se1.json,240
+881,73,2024,2024,Sweden Allsvenskan 2024,europe/sweden/2024_se1.json,240
+882,73,2025,2025,Sweden Allsvenskan 2025,europe/sweden/2025_se1.json,240
+883,316,2019,2019,se.2,fc-cache.wfb/2019/se.2.csv,240
+884,316,2020,2020,se.2,fc-cache.wfb/2020/se.2.csv,240
+885,316,2025,2025,Sweden Superettan 2025,europe/sweden/2025_se2.json,240
+886,317,2025,2025,Sweden Div 1 Södra 2025,europe/sweden/2025_se3s.json,240
+887,71,2023/24,2023,Slovenia First League 2023/24,europe/slovenia/2023-24_si1.json,180
+888,71,2024/25,2024,Slovenia First League 2024/25,europe/slovenia/2024-25_si1.json,180
+889,318,2024/25,2024,Slovenia Cup 2024/25,europe/slovenia/2024-25_sicup.json,123
+890,70,2023/24,2023,Slovakia First League 2023/24,europe/slovakia/2023-24_sk1.json,192
+891,70,2024/25,2024,Slovakia First League 2024/25,europe/slovakia/2024-25_sk1.json,195
+892,67,2023/24,2023,San Marinese Championship 2023/24,europe/san-marino/2023-24_sm1.json,256
+893,67,2024/25,2024,San Marinese Championship 2024/25,europe/san-marino/2024-25_sm1.json,256
+894,75,2013/14,2013,tr.1,fc-cache.footballdata/2013-14/tr.1.csv,306
+895,75,2014/15,2014,tr.1,fc-cache.footballdata/2014-15/tr.1.csv,306
+896,75,2015/16,2015,tr.1,fc-cache.footballdata/2015-16/tr.1.csv,306
+897,75,2016/17,2016,tr.1,fc-cache.footballdata/2016-17/tr.1.csv,306
+898,75,2017/18,2017,tr.1,fc-cache.footballdata/2017-18/tr.1.csv,306
+899,75,2018/19,2018,Turkish Süper Lig 2018/19,europe/turkey/2018-19_tr1.json,306
+900,75,2019/20,2019,Turkish Süper Lig 2019/20,europe/turkey/2019-20_tr1.json,306
+901,75,2020/21,2020,Turkish Süper Lig 2020/21,europe/turkey/2020-21_tr1.json,420
+902,75,2021/22,2021,tr.1,fc-cache.footballdata/2021-22/tr.1.csv,380
+903,75,2022/23,2022,tr.1,fc-cache.footballdata/2022-23/tr.1.csv,342
+904,75,2023/24,2023,Turkish Süper Lig 2023/24,europe/turkey/2023-24_tr1.json,380
+905,75,2024/25,2024,Turkish Süper Lig 2024/25,europe/turkey/2024-25_tr1.json,342
+906,75,2025/26,2025,Turkish Süper Lig 2025/26,europe/turkey/2025-26_tr1.json,306
+907,75,2026/27,2026,Turkey | Süper Lig 2026/27,europe/turkey/2026-27_tr1.json,306
+908,319,2019/20,2019,Turkish 1. Lig 2019/20,europe/turkey/2019-20_tr2.json,311
+909,319,2024/25,2024,tr.2,fc-cache.wfb/2024-25/tr.2.csv,380
+910,320,2024/25,2024,Türkiye Kupasi 2024/25,europe/turkey/2024-25_trcup.json,158
+911,224,2020/21,2020,Tanzania | Premier League 2020/21,world/africa/tanzania/2020-21_tz1.json,306
+912,224,2021/22,2021,Tanzania | Premier League 2021/22,world/africa/tanzania/2021-22_tz1.json,240
+913,224,2023/24,2023,Tanzania | Premier League 2023/24,world/africa/tanzania/2023-24_tz1.json,240
+914,224,2024/25,2024,Tanzania | Premier League 2024/25,world/africa/tanzania/2024-25_tz1.json,240
+915,224,2025/26,2025,Tanzania | Premier League 2025/26,world/africa/tanzania/2025-26_tz1.json,240
+916,76,2023/24,2023,Ukraine Premier League 2023/24,europe/ukraine/2023-24_ua1.json,240
+917,76,2024/25,2024,Ukraine Premier League 2024/25,europe/ukraine/2024-25_ua1.json,240
+918,1,2013/14,2013,UEFA Champions League 2013/14,champions-league/2013-14/cl.json,125
+919,1,2014/15,2014,UEFA Champions League 2014/15,champions-league/2014-15/cl.json,125
+920,1,2015/16,2015,UEFA Champions League 2015/16,champions-league/2015-16/cl.json,125
+921,1,2016/17,2016,UEFA Champions League 2016/17,champions-league/2016-17/cl.json,125
+922,1,2017/18,2017,UEFA Champions League 2017/18,champions-league/2017-18/cl.json,125
+923,1,2018/19,2018,UEFA Champions League 2018/19,champions-league/2018-19/cl.json,125
+924,1,2019/20,2019,UEFA Champions League 2019/20,champions-league/2019-20/cl.json,119
+925,1,2020/21,2020,uefa.cl,fc-cache.api.fbdat/2020-21/uefa.cl.csv,178
+926,1,2021/22,2021,uefa.cl,fc-cache.api.fbdat/2021-22/uefa.cl.csv,218
+927,1,2022/23,2022,uefa.cl,fc-cache.api.fbdat/2022-23/uefa.cl.csv,214
+928,1,2023/24,2023,UEFA Champions League 2023/24,champions-league/2023-24/cl.json,125
+929,1,2024/25,2024,UEFA Champions League 2024/25,champions-league/2024-25/cl.json;champions-league/2024-25/clq.json,279
+930,1,2025/26,2025,UEFA Champions League 2025/26,champions-league/2025-26/cl.json;champions-league/2025-26/clq.json,281
+931,3,2021/22,2021,UEFA Conference League 2021/22,champions-league/2021-22/conf.json,141
+932,3,2022/23,2022,UEFA Conference League 2022/23,champions-league/2022-23/conf.json,141
+933,3,2023/24,2023,UEFA Conference League 2023/24,champions-league/2023-24/conf.json,141
+934,3,2024/25,2024,UEFA Conference League 2024/25,champions-league/2024-25/conf.json;champions-league/2024-25/confq.json,409
+935,3,2025/26,2025,UEFA Conference League 2025/26,champions-league/2025-26/confq.json,256
+936,2,2020/21,2020,UEFA Europa League 2020/21,champions-league/2020-21/el.json,205
+937,2,2021/22,2021,UEFA Europa League 2021/22,champions-league/2021-22/el.json,141
+938,2,2022/23,2022,UEFA Europa League 2022/23,champions-league/2022-23/el.json,141
+939,2,2023/24,2023,UEFA Europa League 2023/24,champions-league/2023-24/el.json,141
+940,2,2024/25,2024,UEFA Europa League 2024/25,champions-league/2024-25/el.json;champions-league/2024-25/elq.json,269
+941,2,2025/26,2025,UEFA Europa League 2025/26,champions-league/2025-26/elq.json,82
+942,227,2023/24,2023,Uganda Premier League 2023/2024,world/africa/uganda/2023-24_ug1.json,226
+943,227,2024/25,2024,Uganda Premier League 2024/2025,world/africa/uganda/2024-25_ug1.json,240
+944,227,2025/26,2025,Uganda Premier League 2025/2026,world/africa/uganda/2025-26_ug1.json,240
+945,121,2013,2013,Major League Soccer 2013,world/north-america/major-league-soccer/2013_mls.json,338
+946,121,2014,2014,Major League Soccer 2014,world/north-america/major-league-soccer/2014_mls.json,338
+947,121,2015,2015,Major League Soccer 2015,world/north-america/major-league-soccer/2015_mls.json,357
+948,121,2016,2016,Major League Soccer 2016,world/north-america/major-league-soccer/2016_mls.json,357
+949,121,2017,2017,Major League Soccer 2017,world/north-america/major-league-soccer/2017_mls.json,391
+950,121,2018,2018,Major League Soccer 2018,world/north-america/major-league-soccer/2018_mls.json,408
+951,121,2019,2019,Major League Soccer 2019,world/north-america/major-league-soccer/2019_mls.json,421
+952,121,2020,2020,Major League Soccer 2020,world/north-america/major-league-soccer/2020_mls.json,316
+953,121,2021,2021,Major League Soccer 2021,world/north-america/major-league-soccer/2021_mls.json,472
+954,121,2022,2022,Major League Soccer 2022,world/north-america/major-league-soccer/2022_mls.json,489
+955,121,2023,2023,Major League Soccer 2023,world/north-america/major-league-soccer/2023_mls.json,521
+956,121,2024,2024,Major League Soccer 2024,world/north-america/major-league-soccer/2024_mls.json,522
+957,121,2025,2025,Major League Soccer 2025,world/north-america/major-league-soccer/2025_mls.json,510
+958,321,2024,2024,us.2,fc-cache.wfb/2024/us.2.csv,408
+959,322,2024,2024,us.cup,fc-cache.wfb/2024/us.cup.csv,47
+960,86,2024,2024,uy.1,fc-cache.wfb/2024/uy.1.csv,209
+961,77,2023/24,2023,Welsh Premier League 2023/24,europe/wales/2023-24_wal1.json,195
+962,77,2024/25,2024,Welsh Premier League 2024/25,europe/wales/2024-25_wal1.json,196
+963,221,2024/25,2024,South Africa Premier League 2024/25,world/africa/south-africa/2024-25_za1.json,240
+964,228,2021/22,2021,Zambia Super League 2021/2022,world/africa/zambia/2021-22_zm1.json,306
+965,228,2023/24,2023,Zambia Super League 2023/2024,world/africa/zambia/2023-24_zm1.json,306
+966,228,2024/25,2024,Zambia Super League 2024/2025,world/africa/zambia/2024-25_zm1.json,306
+967,228,2025/26,2025,Zambia Super League 2025/2026,world/africa/zambia/2025-26_zm1.json,306
+968,229,2021/22,2021,Zimbabwe | Premier Soccer League 2021/22,world/africa/zimbabwe/2021-22_zw1.json,306
+969,229,2023,2023,Zimbabwe | Premier Soccer League 2023,world/africa/zimbabwe/2023_zw1.json,306
+970,229,2024,2024,Zimbabwe | Premier Soccer League 2024,world/africa/zimbabwe/2024_zw1.json,306
+971,229,2025,2025,Zimbabwe | Premier Soccer League 2025,world/africa/zimbabwe/2025_zw1.json,306

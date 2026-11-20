@@ -1,0 +1,141 @@
+competition_id,season,winner,winner_country,team_id
+1,2013/14,Real Madrid,ESP,2027
+1,2014/15,FC Barcelona,ESP,2025
+1,2015/16,Real Madrid,ESP,2027
+1,2016/17,Real Madrid,ESP,2027
+1,2017/18,Real Madrid,ESP,2027
+1,2018/19,Liverpool FC,ENG,1818
+1,2019/20,Bayern München,GER,1448
+1,2020/21,Chelsea FC,ENG,1832
+1,2021/22,Real Madrid,ESP,2027
+1,2022/23,Manchester City,ENG,1836
+1,2023/24,Real Madrid,ESP,2027
+1,2024/25,Paris Saint-Germain,FRA,2352
+2,2013/14,Sevilla FC,ESP,2031
+2,2014/15,Sevilla FC,ESP,2031
+2,2015/16,Sevilla FC,ESP,2031
+2,2016/17,Manchester United,ENG,1831
+2,2017/18,Atlético Madrid,ESP,2032
+2,2018/19,Chelsea FC,ENG,1832
+2,2019/20,Sevilla FC,ESP,2031
+2,2020/21,Villarreal CF,ESP,2038
+2,2021/22,Eintracht Frankfurt,GER,1459
+2,2022/23,Sevilla FC,ESP,2031
+2,2023/24,Atalanta,ITA,2988
+2,2024/25,Tottenham Hotspur,ENG,1835
+3,2021/22,AS Roma,ITA,2992
+3,2022/23,West Ham United,ENG,1828
+3,2023/24,Olympiakos Piraeus,GRE,2760
+3,2024/25,Chelsea FC,ENG,1832
+5,2013,Atlético Mineiro,BRA,491
+5,2014,San Lorenzo,ARG,46
+5,2015,River Plate,ARG,51
+5,2016,Atlético Nacional,COL,1050
+5,2017,Grêmio,BRA,478
+5,2018,River Plate,ARG,51
+5,2019,Flamengo,BRA,485
+5,2020,Palmeiras,BRA,495
+5,2021,Palmeiras,BRA,495
+5,2022,Flamengo,BRA,485
+5,2023,Fluminense,BRA,486
+5,2024,Botafogo,BRA,475
+5,2025,Flamengo,BRA,485
+6,2013,Lanús,ARG,48
+6,2014,River Plate,ARG,51
+6,2015,Independiente Santa Fe,COL,1053
+6,2016,Chapecoense,BRA,492
+6,2017,Independiente,ARG,58
+6,2018,Athletico Paranaense,BRA,487
+6,2019,Independiente del Valle,ECU,1195
+6,2020,Defensa y Justicia,ARG,57
+6,2021,Athletico Paranaense,BRA,487
+6,2022,Independiente del Valle,ECU,1195
+6,2023,LDU Quito,ECU,1171
+6,2024,Racing Club,ARG,45
+6,2025,Lanús,ARG,48
+8,2013/14,Cruz Azul,MEX,1085
+8,2014/15,Club América,MEX,1087
+8,2015/16,Club América,MEX,1087
+8,2016/17,CF Pachuca,MEX,1101
+8,2018,CD Guadalajara,MEX,1142
+8,2019,CF Monterrey,MEX,1132
+8,2020,Tigres UANL,MEX,1117
+8,2021,CF Monterrey,MEX,1132
+8,2022,Seattle Sounders FC,USA,1124
+8,2023,Club León,MEX,1113
+8,2024,CF Pachuca,MEX,1101
+8,2025,Cruz Azul,MEX,1085
+13,2013,Guangzhou Evergrande,CHN,1002
+13,2014,Western Sydney Wanderers,AUS,316
+13,2015,Guangzhou Evergrande,CHN,1002
+13,2016,Jeonbuk Hyundai Motors,KOR,2339
+13,2017,Urawa Red Diamonds,JPN,2341
+13,2018,Kashima Antlers,JPN,2338
+13,2019,Al Hilal,KSA,2346
+13,2020,Ulsan Hyundai,KOR,2348
+13,2021,Al Hilal,KSA,2346
+13,2022,Urawa Red Diamonds,JPN,2341
+13,2023/24,Al Ain FC,UAE,2342
+13,2024/25,Al Ahli,KSA,4121
+15,2013,Kuwait SC,KUW,
+15,2014,Al Qadsia,KUW,
+15,2015,Johor Darul Ta'zim,MAS,
+15,2016,Al Quwa Al Jawiya,IRQ,
+15,2017,Al Quwa Al Jawiya,IRQ,
+15,2018,Al Quwa Al Jawiya,IRQ,
+15,2019,Al Ahed,LIB,4724
+15,2021,Al Muharraq,BHR,
+15,2022,Al Seeb,OMA,
+15,2023/24,Central Coast Mariners,AUS,314
+14,2024/25,Sharjah FC,UAE,
+17,2013,Al Ahly SC,EGY,799
+17,2014,ES Sétif,ALG,1769
+17,2015,TP Mazembe,COD,802
+17,2016,Mamelodi Sundowns,RSA,801
+17,2017,Wydad Casablanca,MAR,805
+17,2018,Espérance de Tunis,TUN,803
+17,2018/19,Espérance de Tunis,TUN,803
+17,2019/20,Al Ahly SC,EGY,799
+17,2020/21,Al Ahly SC,EGY,799
+17,2021/22,Wydad Casablanca,MAR,805
+17,2022/23,Al Ahly SC,EGY,799
+17,2023/24,Al Ahly SC,EGY,799
+17,2024/25,Pyramids FC,EGY,849
+18,2013,CS Sfaxien,TUN,
+18,2014,Al Ahly SC,EGY,799
+18,2015,Étoile du Sahel,TUN,809
+18,2016,TP Mazembe,COD,802
+18,2017,TP Mazembe,COD,802
+18,2018,Raja Casablanca,MAR,866
+18,2018/19,Zamalek SC,EGY,1814
+18,2019/20,RS Berkane,MAR,3327
+18,2020/21,Raja Casablanca,MAR,866
+18,2021/22,RS Berkane,MAR,3327
+18,2022/23,USM Alger,ALG,1779
+18,2023/24,Zamalek SC,EGY,1814
+18,2024/25,RS Berkane,MAR,3327
+20,2023,Mamelodi Sundowns,RSA,801
+21,2013,Auckland City FC,NZL,2335
+21,2014,Auckland City FC,NZL,2335
+21,2015,Auckland City FC,NZL,2335
+21,2016,Auckland City FC,NZL,2335
+21,2017,Auckland City FC,NZL,2335
+21,2018,Team Wellington,NZL,2343
+21,2019,Hienghène Sport,NCL,2345
+21,2022,Auckland City FC,NZL,2335
+21,2023,Auckland City FC,NZL,2335
+21,2024,Auckland City FC,NZL,2335
+21,2025,Auckland City FC,NZL,2335
+22,2013,Bayern München,GER,1448
+22,2014,Real Madrid,ESP,2027
+22,2015,FC Barcelona,ESP,2025
+22,2016,Real Madrid,ESP,2027
+22,2017,Real Madrid,ESP,2027
+22,2018,Real Madrid,ESP,2027
+22,2019,Liverpool FC,ENG,1818
+22,2020,Bayern München,GER,1448
+22,2021,Chelsea FC,ENG,1832
+22,2022,Real Madrid,ESP,2027
+22,2023,Manchester City,ENG,1836
+22,2025,Chelsea FC,ENG,1832
+23,2024,Real Madrid,ESP,2027

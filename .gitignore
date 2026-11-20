@@ -2,3 +2,7 @@ node_modules/
 .wrangler/
 *.log
 .DS_Store
+sources/
+build/
+__pycache__/
+logs.txt

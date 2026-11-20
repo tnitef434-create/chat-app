@@ -1,0 +1,24 @@
+code,name,confederation,scope,tier,first_season,last_season,notes
+uefa.cl,UEFA Champions League,UEFA,continental,1,1955/56,,League phase format from 2024/25
+uefa.el,UEFA Europa League,UEFA,continental,2,1971/72,,Known as UEFA Cup until 2008/09
+uefa.ecl,UEFA Conference League,UEFA,continental,3,2021/22,,Named UEFA Europa Conference League until 2023/24
+uefa.sc,UEFA Super Cup,UEFA,continental,0,1972,,UCL winner vs UEL winner
+conmebol.lib,Copa Libertadores,CONMEBOL,continental,1,1960,,
+conmebol.sud,Copa Sudamericana,CONMEBOL,continental,2,2002,,
+conmebol.rec,Recopa Sudamericana,CONMEBOL,continental,0,1989,,Libertadores winner vs Sudamericana winner
+concacaf.cl,CONCACAF Champions Cup,CONCACAF,continental,1,1962,,Called CONCACAF Champions League 2008/09-2023
+concacaf.league,CONCACAF League,CONCACAF,continental,2,2017,2022,Qualifier for Champions League; replaced by Central American Cup
+concacaf.central,CONCACAF Central American Cup,CONCACAF,continental,2,2023,,
+concacaf.caribbean,CONCACAF Caribbean Cup,CONCACAF,continental,2,2023,,Successor of the CFU Club Championship (1997-2022)
+concacaf.lc,Leagues Cup,CONCACAF,continental,2,2019,,MLS vs Liga MX; qualifies to Champions Cup
+afc.cl,AFC Champions League Elite,AFC,continental,1,1967,,Called AFC Champions League until 2023/24
+afc.cl2,AFC Champions League Two,AFC,continental,2,2024/25,,Replaced the AFC Cup
+afc.cup,AFC Cup,AFC,continental,2,2004,2023/24,
+afc.chl,AFC Challenge League,AFC,continental,3,2024/25,,Replaced AFC Cup qualifying for lower-ranked associations
+caf.cl,CAF Champions League,CAF,continental,1,1964,,
+caf.cc,CAF Confederation Cup,CAF,continental,2,2004,,
+caf.sc,CAF Super Cup,CAF,continental,0,1993,,
+caf.afl,African Football League,CAF,continental,1,2023,2023,One edition held
+ofc.cl,OFC Champions League,OFC,continental,1,1987,,
+fifa.cwc,FIFA Club World Cup,FIFA,intercontinental,1,2000,,32-team format from 2025
+fifa.ic,FIFA Intercontinental Cup,FIFA,intercontinental,1,2024,,Annual inter-confederation club cup from 2024

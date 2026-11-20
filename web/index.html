@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>World Football DB</title>
+<meta name="description" content="Open database of club football leagues and continental competitions since 2013.">
+<style>
+:root {
+  --bg: #f6f7f9; --panel: #ffffff; --ink: #14171c; --muted: #5d6673; --line: #e2e5ea;
+  --accent: #0f6b4f; --accent-ink: #ffffff; --hover: #eef3f1; --win: #0f6b4f; --loss: #b3261e; --draw: #7a6a00;
+  --chip: #eef0f3;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1216; --panel: #171b21; --ink: #e8ebef; --muted: #98a2ae; --line: #2a3038;
+    --accent: #3fbf8f; --accent-ink: #06150f; --hover: #1e2a26; --win: #3fbf8f; --loss: #ff8a80; --draw: #e0c84a;
+    --chip: #232931;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1216; --panel: #171b21; --ink: #e8ebef; --muted: #98a2ae; --line: #2a3038;
+  --accent: #3fbf8f; --accent-ink: #06150f; --hover: #1e2a26; --win: #3fbf8f; --loss: #ff8a80; --draw: #e0c84a;
+  --chip: #232931;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+header { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; padding: 14px 16px;
+  border-bottom: 1px solid var(--line); background: var(--panel); position: sticky; top: 0; z-index: 5; }
+header h1 { font-size: 18px; margin: 0; letter-spacing: -.01em; }
+header .stats { color: var(--muted); font-size: 13px; }
+header input { flex: 1 1 220px; max-width: 360px; padding: 8px 10px; border: 1px solid var(--line);
+  border-radius: 8px; background: var(--bg); color: var(--ink); font: inherit; }
+nav.tabs { display: flex; gap: 4px; margin-left: auto; }
+nav.tabs button, .seg button { border: 1px solid var(--line); background: var(--panel); color: var(--ink);
+  padding: 6px 12px; border-radius: 8px; cursor: pointer; font: inherit; }
+nav.tabs button[aria-pressed="true"], .seg button[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+main { display: grid; grid-template-columns: 300px 1fr; min-height: calc(100vh - 62px); }
+aside { border-right: 1px solid var(--line); background: var(--panel); overflow-y: auto; max-height: calc(100vh - 62px);
+  position: sticky; top: 62px; }
+aside .filters { padding: 12px; display: flex; flex-wrap: wrap; gap: 6px; border-bottom: 1px solid var(--line); }
+.chip { border: 1px solid var(--line); background: var(--chip); color: var(--ink); border-radius: 999px;
+  padding: 3px 10px; font-size: 12px; cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--accent); color: var(--accent-ink); border-color: var(--accent); }
+.group h3 { margin: 0; padding: 10px 14px 4px; font-size: 12px; color: var(--muted); text-transform: uppercase; letter-spacing: .04em; }
+.comp { display: flex; justify-content: space-between; gap: 8px; padding: 6px 14px; cursor: pointer; border-left: 3px solid transparent; }
+.comp:hover { background: var(--hover); }
+.comp.active { background: var(--hover); border-left-color: var(--accent); font-weight: 600; }
+.comp small { color: var(--muted); font-weight: 400; white-space: nowrap; }
+section.view { padding: 18px 20px; min-width: 0; }
+.title { display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px 16px; margin-bottom: 14px; }
+.title h2 { margin: 0; font-size: 22px; letter-spacing: -.01em; }
+.title .sub { color: var(--muted); }
+select { padding: 6px 8px; border-radius: 8px; border: 1px solid var(--line); background: var(--panel); color: var(--ink); font: inherit; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 4px 0; margin-bottom: 18px; overflow-x: auto; }
+.card h4 { margin: 10px 14px 6px; font-size: 14px; }
+table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+th, td { padding: 6px 10px; text-align: right; white-space: nowrap; border-bottom: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 500; font-size: 12px; }
+td.l, th.l { text-align: left; }
+tr:last-child td { border-bottom: 0; }
+tbody tr:hover { background: var(--hover); }
+a.team { color: inherit; text-decoration: none; cursor: pointer; }
+a.team:hover { text-decoration: underline; color: var(--accent); }
+.score { font-weight: 600; text-align: center; }
+.muted { color: var(--muted); }
+.W { color: var(--win); font-weight: 600; } .L { color: var(--loss); font-weight: 600; } .D { color: var(--draw); font-weight: 600; }
+.seg { display: inline-flex; gap: 4px; flex-wrap: wrap; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 12px; margin-bottom: 18px; }
+.tile { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; }
+.tile b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+.tile span { color: var(--muted); font-size: 12px; }
+textarea { width: 100%; min-height: 120px; font: 13px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; padding: 10px;
+  border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: var(--ink); }
+.btn { border: 1px solid var(--accent); background: var(--accent); color: var(--accent-ink); padding: 7px 14px; border-radius: 8px; cursor: pointer; font: inherit; }
+#loading { padding: 60px 20px; text-align: center; color: var(--muted); }
+.err { color: var(--loss); white-space: pre-wrap; }
+.results { position: absolute; background: var(--panel); border: 1px solid var(--line); border-radius: 8px; max-height: 340px;
+  overflow-y: auto; z-index: 20; min-width: 280px; box-shadow: 0 8px 24px rgba(0,0,0,.15); }
+.results div { padding: 6px 10px; cursor: pointer; } .results div:hover { background: var(--hover); }
+.menu-toggle { display: none; }
+@media (max-width: 820px) {
+  main { grid-template-columns: 1fr; }
+  aside { position: static; max-height: none; display: none; border-right: 0; border-bottom: 1px solid var(--line); }
+  aside.open { display: block; max-height: 60vh; }
+  .menu-toggle { display: inline-block; }
+  nav.tabs { margin-left: 0; }
+  section.view { padding: 14px 16px; }
+}
+</style>
+</head>
+<body>
+<header>
+  <button class="chip menu-toggle" id="menuBtn" aria-label="Show competitions">☰ Competitions</button>
+  <h1>⚽ World Football DB</h1>
+  <span class="stats" id="stats">loading…</span>
+  <div style="position:relative;flex:1 1 220px;max-width:360px;display:flex">
+    <input id="search" placeholder="Search a club…" autocomplete="off" style="max-width:none">
+    <div class="results" id="results" hidden></div>
+  </div>
+  <nav class="tabs" id="tabs">
+    <button data-tab="browse" aria-pressed="true">Browse</button>
+    <button data-tab="champions">Champions</button>
+    <button data-tab="sql">SQL</button>
+  </nav>
+</header>
+<main>
+  <aside id="side">
+    <div class="filters" id="confeds"></div>
+    <div id="complist"></div>
+  </aside>
+  <section class="view" id="view"><div id="loading">Downloading database…</div></section>
+</main>
+
+<script src="vendor/sql-wasm.js"></script>
+<script>
+let db, state = { confed: "UEFA", comp: null, season: null, mode: "table", tab: "browse" };
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const q = (sql, params = []) => {
+  const st = db.prepare(sql); st.bind(params); const rows = [];
+  while (st.step()) rows.push(st.getAsObject()); st.free(); return rows;
+};
+const fmt = n => Number(n).toLocaleString();
+const score = m => m.home_ft == null ? '<span class="muted">–</span>' :
+  `${m.home_ft}–${m.away_ft}` + (m.home_et != null && (m.home_et !== m.home_ft || m.away_et !== m.away_ft) ? ` <small class="muted">aet ${m.home_et}–${m.away_et}</small>` : "") +
+  (m.home_pen != null ? ` <small class="muted">(${m.home_pen}–${m.away_pen} p)</small>` : "");
+const teamLink = (id, name) => `<a class="team" data-team="${id}">${esc(name)}</a>`;
+
+async function loadDb() {
+  const SQL = await initSqlJs({ locateFile: f => "vendor/" + f });
+  const res = await fetch("football.sqlite.gz");
+  if (!res.ok) throw new Error("Could not download football.sqlite.gz (" + res.status + ")");
+  let buf = new Uint8Array(await res.arrayBuffer());
+  if (buf[0] === 0x1f && buf[1] === 0x8b) {
+    const ds = new Blob([buf]).stream().pipeThrough(new DecompressionStream("gzip"));
+    buf = new Uint8Array(await new Response(ds).arrayBuffer());
+  }
+  db = new SQL.Database(buf);
+}
+
+function renderStats() {
+  const s = q(`SELECT (SELECT COUNT(*) FROM matches) m, (SELECT COUNT(*) FROM teams) t,
+    (SELECT COUNT(DISTINCT competition_id) FROM seasons) c, (SELECT COUNT(*) FROM countries WHERE fifa_member=1) a`)[0];
+  $("#stats").textContent = `${fmt(s.m)} matches · ${fmt(s.t)} clubs · ${s.c} competitions with data · ${s.a} FIFA associations`;
+}
+
+function renderConfeds() {
+  const list = ["UEFA", "CONMEBOL", "CONCACAF", "AFC", "CAF", "OFC", "FIFA"];
+  $("#confeds").innerHTML = list.map(c => `<button class="chip" data-confed="${c}" aria-pressed="${c === state.confed}">${c}</button>`).join("");
+  $("#confeds").onclick = e => { const b = e.target.closest("[data-confed]"); if (!b) return; state.confed = b.dataset.confed; renderConfeds(); renderCompList(); };
+  renderCompList();
+}
+
+function renderCompList() {
+  const rows = q(`SELECT c.id, c.code, c.name, c.type, c.tier, COALESCE(co.name, '') country,
+      (SELECT COUNT(*) FROM seasons s WHERE s.competition_id=c.id) seasons,
+      (SELECT (SELECT season FROM seasons x WHERE x.competition_id=c.id ORDER BY start_year LIMIT 1)||' – '||(SELECT season FROM seasons x WHERE x.competition_id=c.id ORDER BY start_year DESC LIMIT 1)) span
+    FROM competitions c LEFT JOIN countries co ON co.code=c.country_code
+    WHERE c.confederation=? ORDER BY c.country_code IS NOT NULL, country, c.tier IS NULL, c.tier, c.name`, [state.confed]);
+  const groups = {};
+  for (const r of rows) (groups[r.country || "Continental"] ??= []).push(r);
+  const withData = Object.entries(groups).filter(([, cs]) => cs.some(c => c.seasons));
+  const noData = Object.entries(groups).filter(([, cs]) => !cs.some(c => c.seasons));
+  $("#complist").innerHTML = withData.map(([g, cs]) => `<div class="group"><h3>${esc(g)}</h3>${cs.map(c => `
+      <div class="comp ${c.id === state.comp ? "active" : ""}" data-comp="${c.id}">
+        <span>${esc(c.name)}</span><small>${c.seasons ? c.span : "no data"}</small></div>`).join("")}</div>`).join("") +
+    (noData.length ? `<div class="group"><h3>Registered, no match data yet</h3>${noData.map(([g, cs]) =>
+      cs.map(c => `<div class="comp" data-comp="${c.id}"><span>${esc(g)}</span><small>${esc(c.name)}</small></div>`).join("")).join("")}</div>` : "");
+}
+
+function seasonsOf(compId) {
+  return q(`SELECT id, season, matches_count FROM seasons WHERE competition_id=? ORDER BY start_year DESC, season DESC`, [compId]);
+}
+
+function renderComp() {
+  const c = q(`SELECT c.*, co.name country, co.top_league FROM competitions c LEFT JOIN countries co ON co.code=c.country_code WHERE c.id=?`, [state.comp])[0];
+  const seasons = seasonsOf(c.id);
+  if (!seasons.length) {
+    const champs = q(`SELECT season, winner, winner_country FROM continental_champions WHERE competition_id=? ORDER BY season DESC`, [c.id]);
+    $("#view").innerHTML = `<div class="title"><h2>${esc(c.name)}</h2><span class="sub">${esc(c.country || c.confederation)} · <code>${esc(c.code)}</code></span></div>
+      <p class="muted">No match data in the open sources yet for this competition.${c.notes ? " " + esc(c.notes) : ""}</p>
+      ${champs.length ? champTable(champs) : ""}`;
+    return;
+  }
+  if (!seasons.some(s => s.id === state.season)) state.season = seasons[0].id;
+  const s = seasons.find(x => x.id === state.season);
+  const hasTable = q(`SELECT 1 FROM standings WHERE season_id=? LIMIT 1`, [s.id]).length > 0;
+  if (!hasTable && state.mode === "table") state.mode = "matches";
+  $("#view").innerHTML = `
+    <div class="title"><h2>${esc(c.name)}</h2>
+      <span class="sub">${esc(c.country || c.confederation)} · <code>${esc(c.code)}</code></span>
+      <select id="seasonSel" aria-label="Season">${seasons.map(x => `<option value="${x.id}" ${x.id === s.id ? "selected" : ""}>${esc(x.season)} (${x.matches_count})</option>`).join("")}</select>
+      <span class="seg">${hasTable ? `<button data-mode="table" aria-pressed="${state.mode === "table"}">Table</button>` : ""}
+        <button data-mode="matches" aria-pressed="${state.mode === "matches"}">Matches</button></span>
+    </div><div id="body"></div>`;
+  $("#seasonSel").onchange = e => { state.season = +e.target.value; renderComp(); };
+  document.querySelectorAll("[data-mode]").forEach(b => b.onclick = () => { state.mode = b.dataset.mode; renderComp(); });
+  state.mode === "table" ? renderTable(s.id) : renderMatches(s.id);
+}
+
+function renderTable(seasonId) {
+  const rows = q(`SELECT st.*, t.name FROM standings st JOIN teams t ON t.id=st.team_id WHERE season_id=? ORDER BY phase, position`, [seasonId]);
+  const phases = [...new Set(rows.map(r => r.phase))];
+  $("#body").innerHTML = phases.map(p => `<div class="card"><h4>${esc(p)}</h4><table>
+    <thead><tr><th>#</th><th class="l">Club</th><th>P</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th></tr></thead>
+    <tbody>${rows.filter(r => r.phase === p).map(r => `<tr><td>${r.position}</td><td class="l">${teamLink(r.team_id, r.name)}</td>
+      <td>${r.played}</td><td>${r.won}</td><td>${r.drawn}</td><td>${r.lost}</td><td>${r.goals_for}</td><td>${r.goals_against}</td>
+      <td>${r.goal_diff > 0 ? "+" : ""}${r.goal_diff}</td><td><b>${r.points}</b></td></tr>`).join("")}</tbody></table></div>`).join("") +
+    `<p class="muted">Tables are computed from results (3 points per win). Official point deductions and tie-break rules are not applied.</p>`;
+}
+
+function matchRows(rows, showComp = false) {
+  return `<table><thead><tr><th class="l">Date</th>${showComp ? '<th class="l">Competition</th>' : ""}<th class="l">Round</th>
+    <th>Home</th><th class="score">Score</th><th class="l">Away</th></tr></thead><tbody>${rows.map(m => `<tr>
+    <td class="l">${esc(m.match_date || "")}</td>${showComp ? `<td class="l">${esc(m.comp)} <span class="muted">${esc(m.season)}</span></td>` : ""}
+    <td class="l muted">${esc(m.round || m.stage || "")}</td>
+    <td>${teamLink(m.home_team_id, m.home)}</td><td class="score">${score(m)}</td><td class="l">${teamLink(m.away_team_id, m.away)}</td></tr>`).join("")}</tbody></table>`;
+}
+
+function renderMatches(seasonId) {
+  const rows = q(`SELECT m.*, h.name home, a.name away FROM matches m JOIN teams h ON h.id=m.home_team_id JOIN teams a ON a.id=m.away_team_id
+    WHERE season_id=? ORDER BY match_date, kickoff, m.id`, [seasonId]);
+  const stages = [...new Set(rows.map(r => r.stage || ""))];
+  $("#body").innerHTML = stages.map(st => `<div class="card">${st ? `<h4>${esc(st)}</h4>` : ""}${matchRows(rows.filter(r => (r.stage || "") === st))}</div>`).join("");
+}
+
+function renderTeam(id) {
+  const t = q(`SELECT t.*, co.name country FROM teams t LEFT JOIN countries co ON co.code=t.country_code WHERE t.id=?`, [id])[0];
+  const comps = q(`SELECT c.name, c.type, COUNT(*) n, MIN(s.season) first, MAX(s.season) last FROM matches m JOIN seasons s ON s.id=m.season_id
+    JOIN competitions c ON c.id=s.competition_id WHERE (m.home_team_id=?1 OR m.away_team_id=?1) GROUP BY c.id ORDER BY c.type, n DESC`, [id]);
+  const rec = q(`SELECT SUM(CASE WHEN (home_team_id=?1 AND home_ft>away_ft) OR (away_team_id=?1 AND away_ft>home_ft) THEN 1 ELSE 0 END) w,
+      SUM(CASE WHEN home_ft=away_ft THEN 1 ELSE 0 END) d,
+      SUM(CASE WHEN (home_team_id=?1 AND home_ft<away_ft) OR (away_team_id=?1 AND away_ft<home_ft) THEN 1 ELSE 0 END) l,
+      SUM(CASE WHEN home_team_id=?1 THEN home_ft ELSE away_ft END) gf, SUM(CASE WHEN home_team_id=?1 THEN away_ft ELSE home_ft END) ga
+    FROM matches WHERE (home_team_id=?1 OR away_team_id=?1) AND home_ft IS NOT NULL`, [id])[0];
+  const titles = q(`SELECT c.name, s.season FROM standings st JOIN seasons s ON s.id=st.season_id JOIN competitions c ON c.id=s.competition_id
+    WHERE st.team_id=? AND st.position=1 AND c.type='league' AND st.phase IN ('Regular season','Apertura','Clausura')
+    AND NOT EXISTS (SELECT 1 FROM matches m WHERE m.season_id=s.id AND m.status='scheduled') ORDER BY s.start_year DESC`, [id]);
+  const champs = q(`SELECT c.name, cc.season FROM continental_champions cc JOIN competitions c ON c.id=cc.competition_id WHERE cc.team_id=? ORDER BY cc.season DESC`, [id]);
+  const recent = q(`SELECT m.*, h.name home, a.name away, c.name comp, s.season FROM matches m JOIN teams h ON h.id=m.home_team_id JOIN teams a ON a.id=m.away_team_id
+    JOIN seasons s ON s.id=m.season_id JOIN competitions c ON c.id=s.competition_id WHERE (home_team_id=?1 OR away_team_id=?1) AND m.home_ft IS NOT NULL
+    ORDER BY match_date DESC LIMIT 40`, [id]);
+  const played = (rec.w || 0) + (rec.d || 0) + (rec.l || 0);
+  $("#view").innerHTML = `<div class="title"><h2>${esc(t.name)}</h2><span class="sub">${esc(t.country || "")}${t.city ? " · " + esc(t.city) : ""}${t.founded ? " · founded " + t.founded : ""}${t.stadium ? " · " + esc(t.stadium) : ""}</span></div>
+    <div class="grid">
+      <div class="tile"><b>${fmt(played)}</b><span>matches since 2013</span></div>
+      <div class="tile"><b>${rec.w || 0}–${rec.d || 0}–${rec.l || 0}</b><span>won–drawn–lost</span></div>
+      <div class="tile"><b>${played ? Math.round(100 * rec.w / played) : 0}%</b><span>win rate</span></div>
+      <div class="tile"><b>${rec.gf || 0}:${rec.ga || 0}</b><span>goals for:against</span></div>
+    </div>
+    ${champs.length || titles.length ? `<div class="card"><h4>Honours in the data</h4><table><tbody>
+      ${champs.map(x => `<tr><td class="l">🏆 ${esc(x.name)}</td><td>${esc(x.season)}</td></tr>`).join("")}
+      ${titles.map(x => `<tr><td class="l">🥇 ${esc(x.name)} <span class="muted">(1st, computed table)</span></td><td>${esc(x.season)}</td></tr>`).join("")}
+    </tbody></table></div>` : ""}
+    <div class="card"><h4>Competitions</h4><table><thead><tr><th class="l">Competition</th><th>Matches</th><th>Seasons</th></tr></thead><tbody>
+      ${comps.map(c => `<tr><td class="l">${esc(c.name)}</td><td>${c.n}</td><td>${esc(c.first)} – ${esc(c.last)}</td></tr>`).join("")}</tbody></table></div>
+    <div class="card"><h4>Latest results</h4>${matchRows(recent, true)}</div>`;
+}
+
+function champTable(rows) {
+  return `<div class="card"><table><thead><tr><th class="l">Season</th><th class="l">Winner</th><th class="l">Country</th></tr></thead><tbody>
+    ${rows.map(r => `<tr><td class="l">${esc(r.season)}</td><td class="l">${r.team_id ? teamLink(r.team_id, r.winner) : esc(r.winner)}</td><td class="l">${esc(r.winner_country)}</td></tr>`).join("")}</tbody></table></div>`;
+}
+
+function renderChampions() {
+  const comps = q(`SELECT DISTINCT c.id, c.name, c.confederation FROM continental_champions cc JOIN competitions c ON c.id=cc.competition_id ORDER BY c.confederation='FIFA', c.confederation, c.tier, c.name`);
+  $("#view").innerHTML = `<div class="title"><h2>Continental & intercontinental champions</h2><span class="sub">2013 onwards</span></div>` +
+    comps.map(c => `<div class="card"><h4>${esc(c.name)} <span class="muted">· ${esc(c.confederation)}</span></h4>${champTable(q(
+      `SELECT season, winner, winner_country, team_id FROM continental_champions WHERE competition_id=? ORDER BY season DESC`, [c.id])).replace(/^<div class="card">|<\/div>$/g, "")}</div>`).join("");
+}
+
+function renderSql() {
+  const example = `-- Top scorers-by-team in UEFA competitions since 2013
+SELECT t.name, c.code, SUM(CASE WHEN m.home_team_id=t.id THEN m.home_ft ELSE m.away_ft END) AS goals, COUNT(*) AS played
+FROM matches m
+JOIN seasons s ON s.id = m.season_id
+JOIN competitions c ON c.id = s.competition_id
+JOIN teams t ON t.id IN (m.home_team_id, m.away_team_id)
+WHERE c.confederation = 'UEFA' AND c.type = 'continental' AND m.home_ft IS NOT NULL
+GROUP BY t.id, c.code ORDER BY goals DESC LIMIT 25;`;
+  $("#view").innerHTML = `<div class="title"><h2>SQL console</h2><span class="sub">Tables: confederations, countries, competitions, seasons, teams, team_aliases, matches, standings, continental_champions, competition_access · views: v_matches, v_standings</span></div>
+    <textarea id="sqlIn" spellcheck="false">${esc(example)}</textarea>
+    <p><button class="btn" id="runSql">Run (Ctrl+Enter)</button></p><div id="sqlOut"></div>`;
+  const run = () => {
+    try {
+      const res = db.exec($("#sqlIn").value);
+      $("#sqlOut").innerHTML = res.length ? res.map(r => `<div class="card"><table><thead><tr>${r.columns.map(c => `<th class="l">${esc(c)}</th>`).join("")}</tr></thead>
+        <tbody>${r.values.slice(0, 1000).map(v => `<tr>${v.map(x => `<td class="l">${esc(x)}</td>`).join("")}</tr>`).join("")}</tbody></table></div>
+        <p class="muted">${r.values.length} rows${r.values.length > 1000 ? " (showing 1000)" : ""}</p>`).join("") : '<p class="muted">OK — no rows.</p>';
+    } catch (e) { $("#sqlOut").innerHTML = `<p class="err">${esc(e.message)}</p>`; }
+  };
+  $("#runSql").onclick = run;
+  $("#sqlIn").onkeydown = e => { if (e.key === "Enter" && (e.ctrlKey || e.metaKey)) run(); };
+  run();
+}
+
+function renderHome() {
+  const big = q(`SELECT c.id, c.name, co.name country, COUNT(s.id) n FROM competitions c JOIN countries co ON co.code=c.country_code JOIN seasons s ON s.competition_id=c.id
+    WHERE c.tier=1 AND c.type='league' GROUP BY c.id ORDER BY SUM(s.matches_count) DESC LIMIT 12`);
+  const cont = q(`SELECT c.id, c.name, COUNT(s.id) n FROM competitions c JOIN seasons s ON s.competition_id=c.id WHERE c.type IN ('continental','intercontinental') GROUP BY c.id ORDER BY c.confederation, c.tier`);
+  const tile = r => `<div class="tile comp" data-comp="${r.id}" style="display:block;cursor:pointer"><b style="font-size:15px">${esc(r.name)}</b><span>${esc(r.country || "")} ${r.n} seasons</span></div>`;
+  $("#view").innerHTML = `<div class="title"><h2>Club football since 2013</h2><span class="sub">Every FIFA association, domestic leagues and the continental cups they feed into.</span></div>
+    <h3>Continental competitions</h3><div class="grid">${cont.map(tile).join("")}</div>
+    <h3>Biggest domestic datasets</h3><div class="grid">${big.map(tile).join("")}</div>`;
+}
+
+function render() {
+  document.querySelectorAll("#tabs button").forEach(b => b.setAttribute("aria-pressed", b.dataset.tab === state.tab));
+  if (state.tab === "champions") return renderChampions();
+  if (state.tab === "sql") return renderSql();
+  if (state.team) return renderTeam(state.team);
+  state.comp ? renderComp() : renderHome();
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-team]");
+  if (t) { state.team = +t.dataset.team; state.tab = "browse"; $("#results").hidden = true; render(); scrollTo(0, 0); return; }
+  const c = e.target.closest("[data-comp]");
+  if (c) { state.comp = +c.dataset.comp; state.team = null; state.season = null; state.mode = "table"; state.tab = "browse";
+    $("#side").classList.remove("open"); renderCompList(); render(); scrollTo(0, 0); }
+});
+$("#tabs").onclick = e => { const b = e.target.closest("[data-tab]"); if (!b) return; state.tab = b.dataset.tab; if (b.dataset.tab === "browse") state.team = null; render(); };
+$("#menuBtn").onclick = () => $("#side").classList.toggle("open");
+$("#search").oninput = e => {
+  const v = e.target.value.trim();
+  if (v.length < 2) { $("#results").hidden = true; return; }
+  const rows = q(`SELECT DISTINCT t.id, t.name, COALESCE(co.name,'') country FROM team_aliases a JOIN teams t ON t.id=a.team_id
+      LEFT JOIN countries co ON co.code=t.country_code WHERE a.alias LIKE ?1 OR t.name LIKE ?1 ORDER BY t.name LIMIT 30`, ["%" + v + "%"]);
+  $("#results").innerHTML = rows.map(r => `<div data-team="${r.id}">${esc(r.name)} <span class="muted">${esc(r.country)}</span></div>`).join("") || '<div class="muted">No clubs found</div>';
+  $("#results").hidden = false;
+};
+document.addEventListener("keydown", e => { if (e.key === "Escape") $("#results").hidden = true; });
+
+loadDb().then(() => { renderStats(); renderConfeds(); render(); })
+  .catch(err => { $("#view").innerHTML = `<p class="err">${esc(err.message)}</p>`; });
+</script>
+</body>
+</html>

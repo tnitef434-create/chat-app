@@ -1,0 +1,141 @@
+competition,season,winner,winner_country
+uefa.cl,2013/14,Real Madrid,ESP
+uefa.cl,2014/15,FC Barcelona,ESP
+uefa.cl,2015/16,Real Madrid,ESP
+uefa.cl,2016/17,Real Madrid,ESP
+uefa.cl,2017/18,Real Madrid,ESP
+uefa.cl,2018/19,Liverpool FC,ENG
+uefa.cl,2019/20,Bayern München,GER
+uefa.cl,2020/21,Chelsea FC,ENG
+uefa.cl,2021/22,Real Madrid,ESP
+uefa.cl,2022/23,Manchester City,ENG
+uefa.cl,2023/24,Real Madrid,ESP
+uefa.cl,2024/25,Paris Saint-Germain,FRA
+uefa.el,2013/14,Sevilla FC,ESP
+uefa.el,2014/15,Sevilla FC,ESP
+uefa.el,2015/16,Sevilla FC,ESP
+uefa.el,2016/17,Manchester United,ENG
+uefa.el,2017/18,Atlético Madrid,ESP
+uefa.el,2018/19,Chelsea FC,ENG
+uefa.el,2019/20,Sevilla FC,ESP
+uefa.el,2020/21,Villarreal CF,ESP
+uefa.el,2021/22,Eintracht Frankfurt,GER
+uefa.el,2022/23,Sevilla FC,ESP
+uefa.el,2023/24,Atalanta,ITA
+uefa.el,2024/25,Tottenham Hotspur,ENG
+uefa.ecl,2021/22,AS Roma,ITA
+uefa.ecl,2022/23,West Ham United,ENG
+uefa.ecl,2023/24,Olympiakos Piraeus,GRE
+uefa.ecl,2024/25,Chelsea FC,ENG
+conmebol.lib,2013,Atlético Mineiro,BRA
+conmebol.lib,2014,San Lorenzo,ARG
+conmebol.lib,2015,River Plate,ARG
+conmebol.lib,2016,Atlético Nacional,COL
+conmebol.lib,2017,Grêmio,BRA
+conmebol.lib,2018,River Plate,ARG
+conmebol.lib,2019,Flamengo,BRA
+conmebol.lib,2020,Palmeiras,BRA
+conmebol.lib,2021,Palmeiras,BRA
+conmebol.lib,2022,Flamengo,BRA
+conmebol.lib,2023,Fluminense,BRA
+conmebol.lib,2024,Botafogo,BRA
+conmebol.lib,2025,Flamengo,BRA
+conmebol.sud,2013,Lanús,ARG
+conmebol.sud,2014,River Plate,ARG
+conmebol.sud,2015,Independiente Santa Fe,COL
+conmebol.sud,2016,Chapecoense,BRA
+conmebol.sud,2017,Independiente,ARG
+conmebol.sud,2018,Athletico Paranaense,BRA
+conmebol.sud,2019,Independiente del Valle,ECU
+conmebol.sud,2020,Defensa y Justicia,ARG
+conmebol.sud,2021,Athletico Paranaense,BRA
+conmebol.sud,2022,Independiente del Valle,ECU
+conmebol.sud,2023,LDU Quito,ECU
+conmebol.sud,2024,Racing Club,ARG
+conmebol.sud,2025,Lanús,ARG
+concacaf.cl,2013/14,Cruz Azul,MEX
+concacaf.cl,2014/15,Club América,MEX
+concacaf.cl,2015/16,Club América,MEX
+concacaf.cl,2016/17,CF Pachuca,MEX
+concacaf.cl,2018,CD Guadalajara,MEX
+concacaf.cl,2019,CF Monterrey,MEX
+concacaf.cl,2020,Tigres UANL,MEX
+concacaf.cl,2021,CF Monterrey,MEX
+concacaf.cl,2022,Seattle Sounders FC,USA
+concacaf.cl,2023,Club León,MEX
+concacaf.cl,2024,CF Pachuca,MEX
+concacaf.cl,2025,Cruz Azul,MEX
+afc.cl,2013,Guangzhou Evergrande,CHN
+afc.cl,2014,Western Sydney Wanderers,AUS
+afc.cl,2015,Guangzhou Evergrande,CHN
+afc.cl,2016,Jeonbuk Hyundai Motors,KOR
+afc.cl,2017,Urawa Red Diamonds,JPN
+afc.cl,2018,Kashima Antlers,JPN
+afc.cl,2019,Al Hilal,KSA
+afc.cl,2020,Ulsan Hyundai,KOR
+afc.cl,2021,Al Hilal,KSA
+afc.cl,2022,Urawa Red Diamonds,JPN
+afc.cl,2023/24,Al Ain FC,UAE
+afc.cl,2024/25,Al Ahli,KSA
+afc.cup,2013,Kuwait SC,KUW
+afc.cup,2014,Al Qadsia,KUW
+afc.cup,2015,Johor Darul Ta'zim,MAS
+afc.cup,2016,Al Quwa Al Jawiya,IRQ
+afc.cup,2017,Al Quwa Al Jawiya,IRQ
+afc.cup,2018,Al Quwa Al Jawiya,IRQ
+afc.cup,2019,Al Ahed,LIB
+afc.cup,2021,Al Muharraq,BHR
+afc.cup,2022,Al Seeb,OMA
+afc.cup,2023/24,Central Coast Mariners,AUS
+afc.cl2,2024/25,Sharjah FC,UAE
+caf.cl,2013,Al Ahly SC,EGY
+caf.cl,2014,ES Sétif,ALG
+caf.cl,2015,TP Mazembe,COD
+caf.cl,2016,Mamelodi Sundowns,RSA
+caf.cl,2017,Wydad Casablanca,MAR
+caf.cl,2018,Espérance de Tunis,TUN
+caf.cl,2018/19,Espérance de Tunis,TUN
+caf.cl,2019/20,Al Ahly SC,EGY
+caf.cl,2020/21,Al Ahly SC,EGY
+caf.cl,2021/22,Wydad Casablanca,MAR
+caf.cl,2022/23,Al Ahly SC,EGY
+caf.cl,2023/24,Al Ahly SC,EGY
+caf.cl,2024/25,Pyramids FC,EGY
+caf.cc,2013,CS Sfaxien,TUN
+caf.cc,2014,Al Ahly SC,EGY
+caf.cc,2015,Étoile du Sahel,TUN
+caf.cc,2016,TP Mazembe,COD
+caf.cc,2017,TP Mazembe,COD
+caf.cc,2018,Raja Casablanca,MAR
+caf.cc,2018/19,Zamalek SC,EGY
+caf.cc,2019/20,RS Berkane,MAR
+caf.cc,2020/21,Raja Casablanca,MAR
+caf.cc,2021/22,RS Berkane,MAR
+caf.cc,2022/23,USM Alger,ALG
+caf.cc,2023/24,Zamalek SC,EGY
+caf.cc,2024/25,RS Berkane,MAR
+caf.afl,2023,Mamelodi Sundowns,RSA
+ofc.cl,2013,Auckland City FC,NZL
+ofc.cl,2014,Auckland City FC,NZL
+ofc.cl,2015,Auckland City FC,NZL
+ofc.cl,2016,Auckland City FC,NZL
+ofc.cl,2017,Auckland City FC,NZL
+ofc.cl,2018,Team Wellington,NZL
+ofc.cl,2019,Hienghène Sport,NCL
+ofc.cl,2022,Auckland City FC,NZL
+ofc.cl,2023,Auckland City FC,NZL
+ofc.cl,2024,Auckland City FC,NZL
+ofc.cl,2025,Auckland City FC,NZL
+fifa.cwc,2013,Bayern München,GER
+fifa.cwc,2014,Real Madrid,ESP
+fifa.cwc,2015,FC Barcelona,ESP
+fifa.cwc,2016,Real Madrid,ESP
+fifa.cwc,2017,Real Madrid,ESP
+fifa.cwc,2018,Real Madrid,ESP
+fifa.cwc,2019,Liverpool FC,ENG
+fifa.cwc,2020,Bayern München,GER
+fifa.cwc,2021,Chelsea FC,ENG
+fifa.cwc,2022,Real Madrid,ESP
+fifa.cwc,2023,Manchester City,ENG
+fifa.cwc,2025,Chelsea FC,ENG
+fifa.ic,2024,Real Madrid,ESP
